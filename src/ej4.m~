@@ -62,9 +62,9 @@ H_estimada = toeplitz([h_estimada.' zeros(1,M-L_aux)],zeros(1,M)); % Obtenemos H
 %Recupero la imagen con el H_estimada
 r2 = r.';
 for k=1:P-1
-    u(:,k) = H_estimada\r(:,k); %lo que se recupera
+    u(:,k) = inv(H_estimada)*double(r2(k,:)).'; %lo que se recupera
 end
 %u(:,P+1) = sTrainReceived; %lo que recibi ultima linea
 b2 = uint8(u.');
-imshow(b2);
+%imshow(b2);
 imwrite(b2,'imgRec.gif');
