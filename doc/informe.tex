@@ -433,7 +433,7 @@
 %
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
-\title{Sistemas de Inteligencia Artificial - M\'etodos de B\'usqueda No Informados - Informe}
+\title{M\'etodos Num\'ericos Avanzados\\  Un sistema de comunicaciones }
 %
 %
 % author names and IEEE memberships
@@ -457,9 +457,11 @@
 % journal papers have the author affiliations above the "Manuscript
 % received ..."  text while in non-compsoc journals this is reversed. Sigh.
 
-\author{Daniel Goldberg(48421),~\IEEEmembership{I.T.B.A,}
-        Tom\'as Mehdi(51014),~\IEEEmembership{I.T.B.A,}
-	Cristi\'an Prieto(47573),~\IEEEmembership{I.T.B.A,}
+\author{Mar\'ia de la Puerta Echeverr\'ia (50009),
+       Teresa Fontanella De Santis (52455) y
+	Tom\'as Mehdi (51014)
+	\\~\IEEEmembership{Grupo 2 - Instituto Tecnol\'ogico de Buenos Aires (I.T.B.A.)}
+	
 %\IEEEcompsocitemizethanks{\IEEEcompsocthanksitem M. Shell is with the Department
 %of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta,
 %GA, 30332.\protect\\
@@ -528,14 +530,18 @@
 % PRIOR to the title within the \IEEEcompsoctitleabstractindextext IEEEtran
 % command as these need to go into the title area created by \maketitle.
 \IEEEcompsoctitleabstractindextext{%
+\renewcommand{\abstractname}{Resumen}
+
 \begin{abstract}
 %\boldmath
 
-En el presente art\'iculo se describe el desarrollo de un sistema de producci\'on para la resoluci\'on del juego \textit{GridLock} ( http://www.addictinggames.com/puzzle-games/gridlock.jsp ), para el cual se utiliza un motor de inferencia realizado en Java.
+
+En el presente art\'iculo se describe la estimaci\'on de un canal de un sistema de comunicaci\'on mediante el m\'etodo de cuadrados m\'inimos. El entorno de programaci\'on que se utiliza es Matlab.
 \end{abstract}
 
+\renewcommand{\IEEEkeywordsname}{Palabras claves}
 \begin{IEEEkeywords}
-Soluci\'on \'optima, nodos expandidos, costo de b\'usqueda, nodos frontera, eficiencia, reglas.
+ Sistema de comunicaci\'on, estimaci\'on de canal, respuesta al impulso, cuadrados m\'inimos, QR.
 \end{IEEEkeywords}}
 % IEEEtran.cls defaults to using nonbold math in the Abstract.
 % This preserves the distinction between vectors and scalars. However,
@@ -607,19 +613,14 @@ Soluci\'on \'optima, nodos expandidos, costo de b\'usqueda, nodos frontera, efic
 % 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{M}{}ediante un sistema de producci\'on y con distintas estrategias de b\'usqueda se pueden resolver problemas para los cuales no hay un algoritmo establecido. En este caso se analizar\'a el desarrollo de un sistema de producci\'on para la resoluci\'on del juego GridLock y se utilizar\'an como estrategias de b\'usqueda depth first search (DFS), breadth first searh (BFS), iterative deeping (ID), Greedy y Astar\\
-En la segunda secci\'on se realiza una breve descripci\'on del juego.
-En la tercera secci\'on se analizan detalles de implementaci\'on, las reglas del problema, la funci\'on de costo y las distintas heur\'isticas a implementar.
-En la cuarta secci\'on se muestran las pruebas realizadas y los resultados obtenidos.
-En la quinta y \'ultima secci\'on se analizan los resultados de la secci\'on anterior y se sacan conclusiones.
-En las secciones anexas se pueden ver las tablas de resultados y los tableros a analizar.
+\IEEEPARstart{U}n sistema de comunicaciones consta, como m\'inimo, de tres componentes: un transmisor (que env\'ia los datos), un receptor (que los recibe) y el medio por donde se transmiten los datos o \textit{canal}. Dado que \'este \'ultimo modifica la informaci\'on transmitida, es necesario que el receptor pueda conocerlo, para poder interpretar los datos de forma adecuada. Como generalmente no se conocen, resulta necesario estimarlos. A eso se le llama \textit{estimaci\'on del canal}. En el presente informe se estima el canal utilizando el m\'etodo QR para cuadrados m\'inimos.\\
+En la segunda secci\'on se describe la metodolog\'ia usada.
+En la tercera secci\'on se muestran las pruebas realizadas y los resultados obtenidos.
+En la cuarta y \'ultima secci\'on se analizan los resultados de la secci\'on anterior y se sacan conclusiones.
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
 
-\section{Descripci\'on del problema}
-El juego GridLock se trata de un tablero con piezas dispuestas en forma horizontal y vertical. Las mismas tienen distintos tama\~nos y est\'an ubicadas cada una en un posici\'on distinta dentro del tablero sin que se superpongan. Una de estas piezas es la pieza objetivo, la pieza azul (\textit{ver im\'agenes anexas}), que debe ser llevada a la salida. Los movimientos permitidos son, para las piezas verticales, arriba y abajo, cualquier cantidad de posiciones, siempre y cuando no se superpongan con otras piezas ni se salgan del tablero. De manera equivalente las piezas horizontales pueden moverse a izquierda y derecha. Cualquiera de estas alternativas se toma como un s\'olo movimiento ya sea la pieza desplazada una o varias posiciones.
-
-\section{Implementaci\'on}
+\section{Metodolog\'ia}
 Se represent\'o el tablero como una lista de piezas y a su vez contiene una matriz que facilita la visualizaci\'on del mismo.
 Se definieron cuatro metareglas: mover izquierda, mover derecha, mover arriba y mover abajo. Las primeras dos aplican s\'olo a piezas horizontales y las \'ultimas dos a piezas verticales.
 Las reglas correspondientes a esas metareglas consisten en aplicar cada una de esas metareglas el n\'umero de veces necesario para moverse la cantidad de posiciones deseada, con un m\'aximo de cinco posiciones debido a las dimensiones del tablero (\textit{ver im\'agenes anexas}).
@@ -638,7 +639,7 @@ La $h2(n)$ consiste en contar la cantidad de piezas que hay entre la pieza azul 
 La intenci\'on de la heur\'istica es cuantificar los movimientos m\'inimos necesarios para ganar.\\
 Al devolver la cantidad m\'inima de movimientos necesarios para que la pieza azul llegue a la salida, \'esta heur\'istica nunca va a sobreestimar al costo real. Por lo tanto es admisible.
 
-\section{Pruebas realizadas y resultados obtenidos}
+\section{Resultados y conclusiones}
 
 Se realizaron cien corridas con los m\'etodos de b\'usqueda DFS, BFS, ID, Greedy y Astar para cada uno de los tres tableros con niveles de dificultad baja, media y alta. Se tom\'o como medida de dificultad del tablero el nivel del juego, cuanto mayor es el nivel del juego, mayor es la dificultad del tablero (es importante aclarar que esta dificultad no tiene relaci\'on con la cantidad de movimientos para sacar la ficha azul, sino en como hacer los movimientos para sacarla). Los resultados mostrados son un promedio de esas pruebas. La disposici\'on de las piezas en los tableros puede verse en las im\'agenes anexas.
 
@@ -907,21 +908,21 @@ Tiempo (ms)		& 90 & 491 & 1847 & 20 & 77 & 426 & 200\\
 
 \begin{figure*}[hp]
 \centering
-\includegraphics[scale=0.4]{MapsImages/Level1_aux.png}
+\includegraphics[scale=0.4]{photo1.jpg}
 \caption{Tablero dificultad baja}
 \label{board1}
 \end{figure*}
 
 \begin{figure*}[hp]
 \centering
-\includegraphics[scale=0.4]{MapsImages/Level10.png}
+\includegraphics[scale=0.4]{photo1.jpg}
 \caption{Tablero dificultad media}
 \label{board2}
 \end{figure*}
 
 \begin{figure*}[hp]
 \centering
-\includegraphics[scale=0.4]{MapsImages/Level20.png}
+\includegraphics[scale=0.4]{photo1.jpg}
 \caption{Tablero dificultad alta}
 \label{board3}
 \end{figure*}
