@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  29 APR 2014 12:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  29 APR 2014 13:37
 entering extended mode
 **C:/Users/Teresa/Documents/ITBA/Cuarto*Año/Métodos*Numéricos*Avanzados/TP1/
 mna-tpe1-ej4/doc/informe.tex
@@ -332,12 +332,12 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <12> not available
 (Font)              Font shape `OT1/phv/b/sc' tried instead on input line 579.
 
-Underfull \hbox (badness 1371) in paragraph at lines 624--627
+Underfull \hbox (badness 1371) in paragraph at lines 623--626
 \OT1/ppl/m/n/10 del mismo. Se definieron cu-a-tro metare-glas: mover
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 628.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 627.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 633.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -346,43 +346,55 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 729--733
+Underfull \hbox (badness 10000) in paragraph at lines 722--726
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 828--829
+Underfull \hbox (badness 10000) in paragraph at lines 821--822
 []\OT1/ppl/m/n/8 http://www.addictinggames.com/puzzle-games/gridlock.jsp,
  []
 
 [2]
-Overfull \hbox (271.93672pt too wide) in paragraph at lines 838--851
+Overfull \hbox (271.93672pt too wide) in paragraph at lines 831--844
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 852--853
+Underfull \hbox (badness 10000) in paragraph at lines 845--846
 
  []
 
 
-Overfull \hbox (243.30682pt too wide) in paragraph at lines 858--871
+Overfull \hbox (243.30682pt too wide) in paragraph at lines 851--864
 [][] 
  []
 
 
-Overfull \hbox (257.837pt too wide) in paragraph at lines 874--887
+Overfull \hbox (257.837pt too wide) in paragraph at lines 867--880
 [][] 
  []
 
 
-Overfull \hbox (298.03633pt too wide) in paragraph at lines 891--904
+Overfull \hbox (298.03633pt too wide) in paragraph at lines 884--897
 [][] 
  []
 
 <photo1.jpg, id=16, 3276.24pt x 2457.18pt>
 File: photo1.jpg Graphic file (type jpg)
  <use photo1.jpg>
+Package pdftex.def Info: photo1.jpg used on input line 904.
+(pdftex.def)             Requested size: 1310.47282pt x 982.8546pt.
+
+Overfull \hbox (794.47282pt too wide) in paragraph at lines 904--905
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 322.67961pt on input line 907.
+
+File: photo1.jpg Graphic file (type jpg)
+<use photo1.jpg>
 Package pdftex.def Info: photo1.jpg used on input line 911.
 (pdftex.def)             Requested size: 1310.47282pt x 982.8546pt.
 
@@ -404,18 +416,6 @@ Overfull \hbox (794.47282pt too wide) in paragraph at lines 918--919
 
 
 LaTeX Warning: Float too large for page by 322.67961pt on input line 921.
-
-File: photo1.jpg Graphic file (type jpg)
-<use photo1.jpg>
-Package pdftex.def Info: photo1.jpg used on input line 925.
-(pdftex.def)             Requested size: 1310.47282pt x 982.8546pt.
-
-Overfull \hbox (794.47282pt too wide) in paragraph at lines 925--926
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 322.67961pt on input line 928.
 
 [3
 
@@ -441,7 +441,7 @@ nts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on informe.pdf (6 pages, 544691 bytes).
+Output written on informe.pdf (6 pages, 545441 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

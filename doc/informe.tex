@@ -613,10 +613,9 @@ En el presente art\'iculo se describe la estimaci\'on de un canal de un sistema 
 % 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{U}n sistema de comunicaciones consta, como m\'inimo, de tres componentes: un transmisor (que env\'ia los datos), un receptor (que los recibe) y el medio por donde se transmiten los datos o \textit{canal}. Dado que \'este \'ultimo modifica la informaci\'on transmitida, es necesario que el receptor pueda conocerlo, para poder interpretar los datos de forma adecuada. Como generalmente no se conocen, resulta necesario estimarlos. A eso se le llama \textit{estimaci\'on del canal}. En el presente informe se estima el canal utilizando el m\'etodo QR para cuadrados m\'inimos.\\
-En la segunda secci\'on se describe la metodolog\'ia usada.
-En la tercera secci\'on se muestran las pruebas realizadas y los resultados obtenidos.
-En la cuarta y \'ultima secci\'on se analizan los resultados de la secci\'on anterior y se sacan conclusiones.
+\IEEEPARstart{U}n sistema de comunicaciones consta, como m\'inimo, de tres componentes: un transmisor (que env\'ia los datos), un receptor (que los recibe) y el medio por donde se transmiten los datos o \textit{canal}. Dado que \'este \'ultimo modifica la informaci\'on transmitida, es necesario que el receptor pueda conocerlo, para poder interpretar los datos de forma adecuada. Como generalmente no se conoce, resulta necesario estimarlo. A eso se le llama \textit{estimaci\'on del canal}. En el presente informe se estima el canal utilizando el m\'etodo QR para cuadrados m\'inimos.\\
+En la segunda secci\'on se describe la metodolog\'ia usada y las pruebas realizadas.
+En la tercera y \'ultima secci\'on se muestran los resultados obtenidos y se sacan conclusiones.
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
 
@@ -625,19 +624,13 @@ Se represent\'o el tablero como una lista de piezas y a su vez contiene una matr
 Se definieron cuatro metareglas: mover izquierda, mover derecha, mover arriba y mover abajo. Las primeras dos aplican s\'olo a piezas horizontales y las \'ultimas dos a piezas verticales.
 Las reglas correspondientes a esas metareglas consisten en aplicar cada una de esas metareglas el n\'umero de veces necesario para moverse la cantidad de posiciones deseada, con un m\'aximo de cinco posiciones debido a las dimensiones del tablero (\textit{ver im\'agenes anexas}).
 
-\subsection{Funci\'on de costo}
+\subsection{Modelo utilizado}
 El costo de aplicar cualquiera de las reglas es uno.
 Debido a esto se realiz\'o una modificaci\'on en el motor de inferencia para hacer m\'as eficiente la b\'usqueda de soluciones. La misma consiste en descartar los estados nuevos y repetidos con igual costo. Originalmente se descartaban los estados nuevos y repetidos con costo mayor. Se agreg\'o que se descarten los estados nuevos y repetidos con costo igual ya que aplicar cualquiera de nuestras reglas tiene costo uno y los estados con el mismo costo van a estar a la misma profundidad en el \'arbol.
 
-\subsection{Heur\'istica 1}
-La $h1(n)$ consiste en contar la cantidad de casilleros de distancia que separan a la pieza azul de la salida sin tener en cuenta las piezas que puedan haber en el medio. En el tablero \ref{board1} y \ref{board2} \'esta heur\'istica dar\'ia 4 mientras que en el tablero \ref{board3} dar\'ia 5.\\
- La intenci\'on de esta heur\'istica es darle mayor prioridad a los tableros en donde la pieza azul se encuentra m\'as cerca de la salida.\\
- Esta heur\'istica no es admisible ya que si la pieza azul tuviera el camino a la salida libre la soluci\'on \'optima tendr\'ia costo 1 pero la heur\'istica seguir\'ia devolviendo la cantidad de casilleros de distancia entre la pieza azul y la salida.
 
-\subsection{Heur\'istica 2}
-La $h2(n)$ consiste en contar la cantidad de piezas que hay entre la pieza azul y la salida. En el tablero \ref{board1} dar\'ia 2, en el tablero \ref{board2} dar\'ia 1 y en el \ref{board3} 3.\\
-La intenci\'on de la heur\'istica es cuantificar los movimientos m\'inimos necesarios para ganar.\\
-Al devolver la cantidad m\'inima de movimientos necesarios para que la pieza azul llegue a la salida, \'esta heur\'istica nunca va a sobreestimar al costo real. Por lo tanto es admisible.
+\subsection{Pruebas realizadas}
+Para efectuar las pruebas correspondientes, se considera utilizar un $L={1,10,30,50}$ , aplicando un ruido gaussiano $\sigma=1$. Se considera este valor por ser lo suficientemente chico para no distorsionar demasiado los datos a transmitir. Tambi\'en se prueba con diferentes longitudes de la cadena de entrenamiento $M={32,512,1024}$. \\  Para analizar c\'omo se estima en "condiciones \'optimas" (verbigracia: sin ruido, etc). tambi\'en se prueba con $M=512$ y $\sigma=0$ (con los valores de $L$ ya mencionados). 
 
 \section{Resultados y conclusiones}
 
