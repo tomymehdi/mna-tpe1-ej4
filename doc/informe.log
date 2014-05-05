@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  29 APR 2014 16:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  4 MAY 2014 23:58
 entering extended mode
 **C:/Users/Teresa/Documents/ITBA/Cuarto*Año/Métodos*Numéricos*Avanzados/TP1/
 mna-tpe1-ej4/doc/informe.tex
@@ -102,7 +102,18 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count91
 \@IEEEtranrubishbin=\box26
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grffile.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grffile.sty"
 Package: grffile 2012/04/05 v1.16 Extended file name support for graphics (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
@@ -117,7 +128,7 @@ Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks16
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
@@ -175,9 +186,9 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count93
-\float@exts=\toks16
+\float@exts=\toks17
 \float@box=\box27
-\@float@everytoks=\toks17
+\@float@everytoks=\toks18
 \@floatcapt=\box28
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\bigfoot\perpage.sty"
@@ -197,7 +208,7 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks18
+\@emptytoks=\toks19
 \ex@=\dimen119
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
@@ -227,21 +238,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip10
 \c@parentequation=\count104
 \dspbrk@lvl=\count105
-\tag@help=\toks19
+\tag@help=\toks20
 \row@=\count106
 \column@=\count107
 \maxfields@=\count108
-\andhelp@=\toks20
+\andhelp@=\toks21
 \eqnshift@=\dimen122
 \alignsep@=\dimen123
 \tagshift@=\dimen124
 \tagwidth@=\dimen125
 \totwidth@=\dimen126
 \lineht@=\dimen127
-\@envbody=\toks21
+\@envbody=\toks22
 \multlinegap=\skip45
 \multlinetaggap=\skip46
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -273,18 +284,18 @@ Package morefloats Info: Maximum number of possible floats asked for: 36.
 )
 ("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
 mna-tpe1-ej4\doc\informe.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 432.
-LaTeX Font Info:    ... okay on input line 432.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 432.
-LaTeX Font Info:    ... okay on input line 432.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 432.
-LaTeX Font Info:    ... okay on input line 432.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 432.
-LaTeX Font Info:    ... okay on input line 432.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 432.
-LaTeX Font Info:    ... okay on input line 432.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 432.
-LaTeX Font Info:    ... okay on input line 432.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 433.
+LaTeX Font Info:    ... okay on input line 433.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 433.
+LaTeX Font Info:    ... okay on input line 433.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 433.
+LaTeX Font Info:    ... okay on input line 433.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 433.
+LaTeX Font Info:    ... okay on input line 433.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 433.
+LaTeX Font Info:    ... okay on input line 433.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 433.
+LaTeX Font Info:    ... okay on input line 433.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -293,78 +304,89 @@ LaTeX Font Info:    ... okay on input line 432.
 \scratchbox=\box31
 \nofMPsegments=\count110
 \nofMParguments=\count111
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks24
 \MPscratchCnt=\count112
 \MPscratchDim=\dimen129
 \MPnumerator=\count113
 \makeMPintoPDFobject=\count114
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks25
 )
-Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 432.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 433.
 
-** ATTENTION: \IEEEcompsoctitleabstractindextext is deprecated (line 532). Use 
+** ATTENTION: \IEEEcompsoctitleabstractindextext is deprecated (line 533). Use 
 \IEEEtitleabstractindextext instead.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 557.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 558.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 557.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 558.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 557.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 557.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 557.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 557.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 557.
-LaTeX Font Info:    Try loading font information for U+pzd on input line 557.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 558.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 558.
+LaTeX Font Info:    Try loading font information for U+msa on input line 558.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 558.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+pzd on input line 558.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 ** ATTENTION: \IEEEdisplaynotcompsoctitleabstractindextext is deprecated (line 
-565). Use \IEEEdisplaynontitleabstractindextext instead.
+566). Use \IEEEdisplaynontitleabstractindextext instead.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 579.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 580.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 579.
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 580.
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--621
+Underfull \hbox (badness 10000) in paragraph at lines 617--622
 []\OT1/ppl/m/sc/10 n \OT1/ppl/m/n/10 sis-tema de co-mu-ni-ca-ciones con-sta, co
 mo
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 616--621
+Underfull \hbox (badness 1565) in paragraph at lines 617--622
 \OT1/ppl/m/n/10 el canal, uti-lizando el m[]etodo QR para cuadra-dos
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 616--621
-\OT1/ppl/m/n/10 En la se-gunda secci[]on se de-scribe la metodolog[]a
+Underfull \hbox (badness 2846) in paragraph at lines 617--622
+\OT1/ppl/m/n/10 En la sigu-iente secci[]on, Metodolog[]a Uti-lizada, se
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--621
+Underfull \hbox (badness 10000) in paragraph at lines 617--622
 
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 624.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 625.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 625.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 625.
 
-Underfull \hbox (badness 2772) in paragraph at lines 625--629
+Underfull \hbox (badness 2772) in paragraph at lines 626--630
 \OT1/ppl/m/n/10 son afec-ta-dos por ruido blanco Gaus-siano adi-tivo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--629
+Underfull \hbox (badness 10000) in paragraph at lines 626--630
+
+ []
+
+
+Overfull \hbox (32.57957pt too wide) detected at line 662
+\OML/cmm/m/it/10 H \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[]\OM
+L/cmm/m/it/10 :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--666
 
  []
 
@@ -372,87 +394,94 @@ Underfull \hbox (badness 10000) in paragraph at lines 625--629
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 746--750
+Underfull \hbox (badness 10000) in paragraph at lines 692--694
 
  []
 
-[2]
-Overfull \hbox (271.93672pt too wide) in paragraph at lines 857--870
+
+Underfull \hbox (badness 10000) in paragraph at lines 796--800
+
+ []
+
+[2] [3
+
+]
+Overfull \hbox (271.93672pt too wide) in paragraph at lines 907--920
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 871--872
+Underfull \hbox (badness 10000) in paragraph at lines 921--922
 
  []
 
 
-Overfull \hbox (243.30682pt too wide) in paragraph at lines 877--890
+Overfull \hbox (243.30682pt too wide) in paragraph at lines 927--940
 [][] 
  []
 
 
-Overfull \hbox (257.837pt too wide) in paragraph at lines 893--906
+Overfull \hbox (257.837pt too wide) in paragraph at lines 943--956
 [][] 
  []
 
 
-Overfull \hbox (298.03633pt too wide) in paragraph at lines 910--923
+Overfull \hbox (298.03633pt too wide) in paragraph at lines 960--973
 [][] 
  []
 
-<photo1.jpg, id=21, 3276.24pt x 2457.18pt>
+<photo1.jpg, id=25, 3276.24pt x 2457.18pt>
 File: photo1.jpg Graphic file (type jpg)
  <use photo1.jpg>
-Package pdftex.def Info: photo1.jpg used on input line 930.
+Package pdftex.def Info: photo1.jpg used on input line 980.
 (pdftex.def)             Requested size: 1310.47282pt x 982.8546pt.
 
-Overfull \hbox (794.47282pt too wide) in paragraph at lines 930--931
+Overfull \hbox (794.47282pt too wide) in paragraph at lines 980--981
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 322.67961pt on input line 933.
+LaTeX Warning: Float too large for page by 322.67961pt on input line 983.
 
 File: photo1.jpg Graphic file (type jpg)
 <use photo1.jpg>
-Package pdftex.def Info: photo1.jpg used on input line 937.
+Package pdftex.def Info: photo1.jpg used on input line 987.
 (pdftex.def)             Requested size: 1310.47282pt x 982.8546pt.
 
-Overfull \hbox (794.47282pt too wide) in paragraph at lines 937--938
+Overfull \hbox (794.47282pt too wide) in paragraph at lines 987--988
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 322.67961pt on input line 940.
+LaTeX Warning: Float too large for page by 322.67961pt on input line 990.
 
 File: photo1.jpg Graphic file (type jpg)
 <use photo1.jpg>
-Package pdftex.def Info: photo1.jpg used on input line 944.
+Package pdftex.def Info: photo1.jpg used on input line 994.
 (pdftex.def)             Requested size: 1310.47282pt x 982.8546pt.
 
-Overfull \hbox (794.47282pt too wide) in paragraph at lines 944--945
+Overfull \hbox (794.47282pt too wide) in paragraph at lines 994--995
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 322.67961pt on input line 947.
+LaTeX Warning: Float too large for page by 322.67961pt on input line 997.
 
-[3
+[4
 
 
-] [4 <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/
-TP1/mna-tpe1-ej4/doc/photo1.jpg>] [5] [6]
+] [5 <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/
+TP1/mna-tpe1-ej4/doc/photo1.jpg>] [6] [7]
 ("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
 mna-tpe1-ej4\doc\informe.aux") ) 
 Here is how much of TeX's memory you used:
- 2997 strings out of 493921
- 44918 string characters out of 3147279
- 110158 words of memory out of 3000000
- 6250 multiletter control sequences out of 15000+200000
- 44392 words of font info for 90 fonts, out of 3000000 for 9000
+ 3290 strings out of 493921
+ 48140 string characters out of 3147279
+ 110644 words of memory out of 3000000
+ 6522 multiletter control sequences out of 15000+200000
+ 48010 words of font info for 107 fonts, out of 3000000 for 9000
  846 hyphenation exceptions out of 8191
- 36i,7n,21p,957b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,26p,957b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fo
 ntname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
@@ -460,16 +489,17 @@ ntname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/he
-lvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfd
-ing/uzdr.pfb>
-Output written on informe.pdf (6 pages, 589634 bytes).
+e1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helve
+tic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding
+/uzdr.pfb>
+Output written on informe.pdf (7 pages, 596835 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

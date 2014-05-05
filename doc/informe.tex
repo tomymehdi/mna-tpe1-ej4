@@ -138,6 +138,7 @@
 % IEEEtran.cls V1.7 and later.
 
 
+\usepackage{amssymb}
 
 \usepackage{grffile}
  \usepackage[pdftex]{graphicx}
@@ -460,7 +461,7 @@
 \author{Mar\'ia de la Puerta Echeverr\'ia (50009),
        Teresa Fontanella De Santis (52455) y
 	Tom\'as Mehdi (51014)
-	\\~\IEEEmembership{Grupo 2 - Instituto Tecnol\'ogico de Buenos Aires (I.T.B.A.)}
+	\\~\IEEEmembership{Grupo 2 - Instituto Tecnol\'ogico de Buenos Aires (ITBA)}
 	
 %\IEEEcompsocitemizethanks{\IEEEcompsocthanksitem M. Shell is with the Department
 %of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta,
@@ -614,13 +615,13 @@ En el presente art\'iculo se describe la estimaci\'on de un canal de un sistema 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
 \IEEEPARstart{U}n sistema de comunicaciones consta, como m\'inimo, de tres componentes: un transmisor (que env\'ia los datos), un receptor (que los recibe) y el medio por donde se transmiten los datos o \textit{canal}. Dado que \'este \'ultimo modifica la informaci\'on transmitida, es necesario que el receptor pueda conocerlo, para poder interpretar los datos de forma adecuada. Como generalmente no se conoce, resulta necesario estimarlo. A eso se le llama \textit{estimaci\'on del canal}. En el presente informe se estima el canal, utilizando el m\'etodo QR para cuadrados m\'inimos.\\
-En la segunda secci\'on se describe la metodolog\'ia usada y las pruebas realizadas.
-En la tercera y \'ultima secci\'on se muestran los resultados obtenidos y se sacan conclusiones. \\
+En la siguiente secci\'on, Metodolog\'ia Utilizada, se describe la misma, as\'i como las pruebas realizadas.
+En la \'ultima secci\'on se muestran los resultados obtenidos y se extraen conclusiones. \\
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
 
 \section{Metodolog\'ia utilizada}
-Para la realizaci\'on de este trabajo, se toman en cuenta:
+Para la realizaci\'on de este trabajo, se toman en cuenta las siguientes fases:
 \subsection{Modelo empleado}
 El transmisor env\'ia un dato sk cada T segundos, donde ${s_0}$ es enviado en $t = 0$, ${s_1}$ en $t = T$, ${s_2}$ en $t = 2T$, ...\\
 La modificaci\'on de los datos por el canal se presenta por la denominada \textit{respuesta al impulso del canal} $\{{h_{k}\}}_{k=0}^{L}$, donde $L$ es la longitud de la respuesta al impulso. \\
@@ -629,7 +630,7 @@ Teniendo todo esto en cuenta, cada $T$ segundos el receptor observa: \\
 \begin{equation}
 r_n = \sum_{k=0}^{L-1} {h_{k}s_{n-k}}+N_n
 \end{equation}
-Tambi\'en podemos expresar la Ec. 1 en forma matricial como
+Tambi\'en podemos expresar la Ec. (1) en forma matricial como
 \begin{equation}
 \vec{r} = H\vec{s}+\vec{N}
 \end{equation}
@@ -652,6 +653,55 @@ N_0\\ N_1\\ ...\\N_{M-1}
 \right)
 \end{equation}
 
+\begin{equation}
+H = \left(
+\begin{array}{ccccccccc}
+h_0 & 0 & 0 & ... & 0 & 0 & ... & 0 & 0\\ h_1 & h_0 &0&...&0&0&...&0&0\\ ...& ...&...&...&0&0&...&0&0   \\ ...\\h_{L-1}&& h_{L-2}&&... \\ ...&...&...&...&...&...&...&... &... \\ 0&0&0&0&0&0&0&h_1 & h_0
+\end{array}
+\right) \in \mathbb{R}^{M X M}.
+\end{equation}
+
+y $M \geq L$. \\ \\
+Otra forma equivalente es la siguiente:
+\begin{equation}
+\vec{r} = S\vec{h}+\vec{N}
+\end{equation}
+donde $\vec{r}$ y $\vec{N}$ son como antes y
+
+\begin{equation}
+\vec{h} = \left(
+\begin{array}{c}
+h_0\\ h_1\\ ...\\h_L
+\end{array}
+\right),
+\end{equation}
+
+\begin{equation}
+S = \left(
+\begin{array}{c}
+h_0\\ h_1\\ ...\\h_L
+\end{array}
+\right) \in \mathbb{R}^{M X L}.
+\end{equation}
+
+Lo que nos interesa es recuperar correctamente la se\~nal enviada $\vec{s}$ a partir de la se\~nal recibida $\vec{r}$. Esto no ser\'ia tan dif\'icil si se conociesen $L$ y los $\{{h_{k}\}}$. En
+efecto, tomando $M = L$ en la Ec. (2), podemos buscar $\vec{s}$ que minimice:
+
+\begin{equation}
+\| H\vec{s}-\vec{r}\|_{2}^{2}  .
+\end{equation}
+\\
+
+El problema es, sin embargo, que en general ni $L$ ni $\{{h_{k}\}}$ son conocidos: estimarlos
+corresponde al problema de estimaci\'on del canal.
+Si $L$ es conocido, una forma de estimar el canal es mediante la Ec. (5) y el
+m\'etodo de cuadrados m\'inimos. En efecto, t\'omese $M > L$ y env\'iese una se\~nal
+conocida por el receptor $\vec{s} \in \mathbb{R}^{M} $ (denominada secuencia de entrenamiento).
+Luego, se estima el canal planteando el siguiente problema de cuadrados m\'inimos:
+encontrar $\vec{h} \in \mathbb{R}^{L} $ que minimice
+\begin{equation}
+\| S\vec{h}-\vec{r}\|_{2}^{2}  .
+\end{equation}
 
 \subsection{Pruebas realizadas}
 Para efectuar las pruebas correspondientes, se considera utilizar un $L={1,10,30,50}$ , aplicando un ruido gaussiano $\sigma=1$. Se considera este valor por ser lo suficientemente chico para no distorsionar demasiado los datos a transmitir. Tambi\'en se prueba con diferentes longitudes de la cadena de entrenamiento $M={32,512,1024}$. \\  Para analizar c\'omo se estima en "condiciones \'optimas" (verbigracia: sin ruido, etc). tambi\'en se prueba con $M=512$ y $\sigma=0$ (con los valores de $L$ ya mencionados). 
