@@ -25,11 +25,10 @@ M = size(a,2);
 P = size(a,1);
 H = toeplitz([h.' zeros(1,M-L_aux)],zeros(1,M)); 
 r = zeros(M,P);
-
+N = sigma*randn(M,1); % ruido
 %Envio la imagen con un s extra conocido para entrenamiendo
 %Se transmite una fila de la imagen por vez
 for k=1:P
-    N = sigma*randn(M,1); % ruido
     s = double(a(k,:)'); % lo que se envia
     r(:,k) = H*s+N; % lo que se recibe
 end
@@ -45,7 +44,7 @@ imwrite(b,'imgTrans.gif');
 %Estimo h'_x donde x es la longitud(L) de respuesta al impulso
 %Tengo r y S, uso QR para estimar h
 %||S*h-r||_{2}^{2}
-S = toeplitz(sTrainSent, zeros(1,L_aux)); % S 
+	 % S 
 %Uso M para cortar sTrainSent por que si mando uno mas largo que
 %cols(imagen) ya no me interesan los que sobran
 sTrainReceived = double(r(:,P)); % r, lo que recibi del entrenamiento
@@ -62,9 +61,9 @@ H_estimada = toeplitz([h_estimada.' zeros(1,M-L_aux)],zeros(1,M)); % Obtenemos H
 %Recupero la imagen con el H_estimada
 r2 = r.';
 for k=1:P-1
-    u(:,k) = inv(H_estimada)*double(r2(k,:)).'; %lo que se recupera
+    u(:,k) = H_estimada\r(:,k); %lo que se recupera
 end
 %u(:,P+1) = sTrainReceived; %lo que recibi ultima linea
 b2 = uint8(u.');
-%imshow(b2);
+imshow(b2);
 imwrite(b2,'imgRec.gif');

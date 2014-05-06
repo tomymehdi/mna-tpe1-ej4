@@ -25,17 +25,16 @@ M = size(a,2);
 P = size(a,1);
 H = toeplitz([h.' zeros(1,M-L_aux)],zeros(1,M)); 
 r = zeros(M,P);
-
+N = sigma*randn(M,1); % ruido
 %Envio la imagen con un s extra conocido para entrenamiendo
 %Se transmite una fila de la imagen por vez
 for k=1:P
-    N = sigma*randn(M,1); % ruido
     s = double(a(k,:)'); % lo que se envia
     r(:,k) = H*s+N; % lo que se recibe
 end
 b = uint8(r(:,1:P-1).');
 %imshow(b);
-imwrite(b,'imgTrans.gif');
+imwrite(b,'imgTrans.bmp');
 
 % r = H*s+N
 % r = S*h+N
@@ -67,4 +66,4 @@ end
 %u(:,P+1) = sTrainReceived; %lo que recibi ultima linea
 b2 = uint8(u.');
 imshow(b2);
-imwrite(b2,'imgRec.gif');
+imwrite(b2,'imgRec.bmp');
