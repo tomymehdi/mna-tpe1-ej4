@@ -50,7 +50,7 @@ S = toeplitz(sTrainSent, zeros(1,L_aux)); % S
 sTrainReceived = double(r(:,P)); % r, lo que recibi del entrenamiento
 
 
-[Q R] = qr(S); % S*h = r  Entonces Q'*S*h = Q'*r Entonces R*h = Q'*r
+[Q R] = ourQR(S); % S*h = r  Entonces Q'*S*h = Q'*r Entonces R*h = Q'*r
 %[Q R] = ourQR(S); % Nuestra implementacion
 
 h_estimada = pinv(R)*(Q'*sTrainReceived); % Resolvemos R*h = Q'*r
