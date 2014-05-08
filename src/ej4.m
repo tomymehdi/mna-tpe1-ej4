@@ -12,6 +12,8 @@ ganancia = 1/5;
 h = ganancia*(1+randn(L_aux,1));
 
 a = imread('lena512.bmp');
+%a = 255*rand(10,10);
+imwrite(uint8(a),'realimg.bmp');
 %a=eye(5,5);
 
 %Agrego una fila conocida a la imagen de longitud M, cols(imagen)
@@ -44,7 +46,7 @@ imwrite(b,'imgTrans.bmp');
 %Estimo h'_x donde x es la longitud(L) de respuesta al impulso
 %Tengo r y S, uso QR para estimar h
 %||S*h-r||_{2}^{2}
-S = toeplitz(sTrainSent, zeros(1,L_aux)); % S 
+S = toeplitz(sTrainSent, zeros(1,L)); % S 
 %Uso M para cortar sTrainSent por que si mando uno mas largo que
 %cols(imagen) ya no me interesan los que sobran
 sTrainReceived = double(r(:,P)); % r, lo que recibi del entrenamiento
@@ -54,7 +56,7 @@ sTrainReceived = double(r(:,P)); % r, lo que recibi del entrenamiento
 %[Q R] = ourQR(S); % Nuestra implementacion
 
 h_estimada = pinv(R)*(Q'*sTrainReceived); % Resolvemos R*h = Q'*r
-H_estimada = toeplitz([h_estimada.' zeros(1,M-L_aux)],zeros(1,M)); % Obtenemos H con h
+H_estimada = toeplitz([h_estimada.' zeros(1,M-L)],zeros(1,M)); % Obtenemos H con h
 
 %PASO 3
 'Recuperando'
@@ -65,5 +67,5 @@ for k=1:P-1
 end
 %u(:,P+1) = sTrainReceived; %lo que recibi ultima linea
 b2 = uint8(u.');
-imshow(b2);
+%imshow(b2);
 imwrite(b2,'imgRec.bmp');
