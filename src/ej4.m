@@ -7,7 +7,7 @@ function ej4(E, L, sigma)
 %PASO 1
 'Enviando imagen por canal inestable'
 %h random para el primer caso en el que envio s de entrenamiento
-L_aux = L;
+L_aux = 5;
 ganancia = 1/5;
 h = ganancia*(1+randn(L_aux,1));
 
@@ -50,7 +50,7 @@ S = toeplitz(sTrainSent, zeros(1,L_aux)); % S
 sTrainReceived = double(r(:,P)); % r, lo que recibi del entrenamiento
 
 
-[Q R] = ourQR(S); % S*h = r  Entonces Q'*S*h = Q'*r Entonces R*h = Q'*r
+[Q R] = qr(S); % S*h = r  Entonces Q'*S*h = Q'*r Entonces R*h = Q'*r
 %[Q R] = ourQR(S); % Nuestra implementacion
 
 h_estimada = pinv(R)*(Q'*sTrainReceived); % Resolvemos R*h = Q'*r
