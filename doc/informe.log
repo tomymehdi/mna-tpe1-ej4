@@ -1,23 +1,24 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  7 MAY 2014 21:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  8 MAY 2014 20:30
 entering extended mode
-**C:/Users/Teresa/Documents/ITBA/Cuarto*Año/Métodos*Numéricos*Avanzados/TP1/
-mna-tpe1-ej4/doc/informe.tex
-
-("C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP1/
-mna-tpe1-ej4/doc/informe.tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\ieeetran\IEEEtran.cls"
-Document Class: IEEEtran 2012/12/27 V1.8 by Michael Shell
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**informe.tex
+(./informe.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
+Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
 \@IEEEtrantmpdimenA=\dimen102
@@ -26,9 +27,9 @@ Document Class: IEEEtran 2012/12/27 V1.8 by Michael Shell
 \@IEEEtrantmpcountB=\count80
 \@IEEEtrantmptoksA=\toks14
 -- Using IEEE Computer Society mode.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 368.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 366.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -39,45 +40,45 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 \CLASSINFOnormalsizeunitybaselineskip=\dimen106
 \IEEEnormaljot=\dimen107
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <5> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <7> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <8> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <9> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <11> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <17> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <20> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
 \IEEEilabelindentA=\dimen108
 \IEEEilabelindentB=\dimen109
 \IEEEilabelindent=\dimen110
@@ -98,51 +99,50 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24> not available
 \c@table=\count87
 \@IEEEeqnnumcols=\count88
 \@IEEEeqncolcnt=\count89
-\@IEEEsubeqnnumrollback=\count90
 \@IEEEtmpitemindent=\dimen116
-\c@IEEEbiography=\count91
+\c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grffile.sty"
-Package: grffile 2012/04/05 v1.16 Extended file name support for graphics (HO)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2010/12/09 v1.13 Extended file name support for graphics (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -151,118 +151,147 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count92
+\Gread@gobject=\count91
 ))
 Package grffile Info: Option `multidot' is set to `true'.
 Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count93
+\c@float@type=\count92
 \float@exts=\toks17
 \float@box=\box27
 \@float@everytoks=\toks18
 \@floatcapt=\box28
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\bigfoot\perpage.sty"
-Package: perpage 2006/07/15 1.12 Reset/sort counters per page
-\c@abspage=\count94
-)
-\c@pp@a@figure=\count95
-\c@pp@a@table=\count96
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count93
+\lst@gtempboxa=\box29
+\lst@token=\toks19
+\lst@length=\count94
+\lst@currlwidth=\dimen119
+\lst@column=\count95
+\lst@pos=\count96
+\lst@lostspace=\dimen120
+\lst@width=\dimen121
+\lst@newlines=\count97
+\lst@lineno=\count98
+\lst@maxwidth=\dimen122
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2013/01/14 v2.14 AMS math features
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count99
+\lst@skipnumbers=\count100
+\lst@framebox=\box30
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/bigfoot/perpage.sty
+Package: perpage 2006/07/15 1.12 Reset/sort counters per page
+\c@abspage=\count101
+)
+\c@pp@a@figure=\count102
+\c@pp@a@table=\count103
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks19
-\ex@=\dimen119
+\@emptytoks=\toks20
+\ex@=\dimen123
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen120
+\pmbraise@=\dimen124
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count97
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count98
-\leftroot@=\count99
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count100
-\DOTSCASE@=\count101
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box29
-\strutbox@=\box30
-\big@size=\dimen121
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count102
-\c@MaxMatrixCols=\count103
+\inf@bad=\count104
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count105
+\leftroot@=\count106
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count107
+\DOTSCASE@=\count108
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count109
+\c@MaxMatrixCols=\count110
 \dotsspace@=\muskip10
-\c@parentequation=\count104
-\dspbrk@lvl=\count105
-\tag@help=\toks20
-\row@=\count106
-\column@=\count107
-\maxfields@=\count108
-\andhelp@=\toks21
-\eqnshift@=\dimen122
-\alignsep@=\dimen123
-\tagshift@=\dimen124
-\tagwidth@=\dimen125
-\totwidth@=\dimen126
-\lineht@=\dimen127
-\@envbody=\toks22
+\c@parentequation=\count111
+\dspbrk@lvl=\count112
+\tag@help=\toks21
+\row@=\count113
+\column@=\count114
+\maxfields@=\count115
+\andhelp@=\toks22
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks23
 \multlinegap=\skip45
 \multlinetaggap=\skip46
-\mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\morefloats\morefloats.sty"
-Package: morefloats 2012/01/28 v1.0f Raise limit of unprocessed floats (HMM; DH
-)
-Package morefloats Info: Maximum number of possible floats asked for: 36.
-(morefloats)             LaTeX might run out of memory before this
-(morefloats)             (in which case it will notify you).
-(morefloats)              on input line 171.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/morefloats/morefloats.sty
+Package: morefloats 2011/02/01 v1.0d Increase limit of unprocessed floats (HMM;
+ DH)
+\c@maxfloats=\count116
+
+
+Package maxfloats Warning: 
+(maxfloats)                Maximum number of possible floats asked for: 36.
+(maxfloats)                LaTeX might run out of dimensions or memory
+(maxfloats)                before this (in which case it will notify you).
+(maxfloats)                 on input line 127.
+
 \bx@S=\insert233
 \bx@T=\insert232
 \bx@U=\insert231
@@ -281,233 +310,234 @@ Package morefloats Info: Maximum number of possible floats asked for: 36.
 \bx@AH=\insert218
 \bx@AI=\insert217
 \bx@AJ=\insert216
-)
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
-mna-tpe1-ej4\doc\informe.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 433.
-LaTeX Font Info:    ... okay on input line 433.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 433.
-LaTeX Font Info:    ... okay on input line 433.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 433.
-LaTeX Font Info:    ... okay on input line 433.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 433.
-LaTeX Font Info:    ... okay on input line 433.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 433.
-LaTeX Font Info:    ... okay on input line 433.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 433.
-LaTeX Font Info:    ... okay on input line 433.
+) (./informe.aux)
+\openout1 = `informe.aux'.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 434.
+LaTeX Font Info:    ... okay on input line 434.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 434.
+LaTeX Font Info:    ... okay on input line 434.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 434.
+LaTeX Font Info:    ... okay on input line 434.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 434.
+LaTeX Font Info:    ... okay on input line 434.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 434.
+LaTeX Font Info:    ... okay on input line 434.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 434.
+LaTeX Font Info:    ... okay on input line 434.
+
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
-\scratchdimen=\dimen128
-\scratchbox=\box31
-\nofMPsegments=\count110
-\nofMParguments=\count111
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count112
-\MPscratchDim=\dimen129
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
-\everyMPtoPDFconversion=\toks25
-)
-Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 433.
+\scratchcounter=\count117
+\scratchdimen=\dimen132
+\scratchbox=\box33
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen133
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks26
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-** ATTENTION: \IEEEcompsoctitleabstractindextext is deprecated (line 533). Use 
-\IEEEtitleabstractindextext instead.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 558.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 434.
+\c@lstlisting=\count123
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 559.
+
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 558.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 559.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 558.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 558.
-LaTeX Font Info:    Try loading font information for U+msa on input line 558.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 559.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 559.
+LaTeX Font Info:    Try loading font information for U+msa on input line 559.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 558.
+LaTeX Font Info:    Try loading font information for U+msb on input line 559.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+pzd on input line 558.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 559.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-** ATTENTION: \IEEEdisplaynotcompsoctitleabstractindextext is deprecated (line 
-566). Use \IEEEdisplaynontitleabstractindextext instead.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 580.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 581.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 580.
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 581.
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--622
+Underfull \hbox (badness 10000) in paragraph at lines 618--623
 []\OT1/ppl/m/sc/10 n \OT1/ppl/m/n/10 sis-tema de co-mu-ni-ca-ciones con-sta, co
 mo
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 617--622
+Underfull \hbox (badness 1565) in paragraph at lines 618--623
 \OT1/ppl/m/n/10 el canal, uti-lizando el m[]etodo QR para cuadra-dos
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 617--622
-\OT1/ppl/m/n/10 En la sigu-iente secci[]on, Metodolog[]a Uti-lizada, se
+Underfull \hbox (badness 2846) in paragraph at lines 618--623
+\OT1/ppl/m/n/10 En la sigu-iente secci[]on, Metodolog[]^^Pa Uti-lizada, se
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--622
+Underfull \hbox (badness 10000) in paragraph at lines 618--623
 
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 625.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 626.
 
-Underfull \hbox (badness 2772) in paragraph at lines 626--630
+Underfull \hbox (badness 2772) in paragraph at lines 627--631
 \OT1/ppl/m/n/10 son afec-ta-dos por ruido blanco Gaus-siano adi-tivo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--630
+Underfull \hbox (badness 10000) in paragraph at lines 627--631
 
  []
 
 
-Overfull \hbox (46.83585pt too wide) detected at line 668
+Overfull \hbox (46.83585pt too wide) detected at line 669
 \OML/cmm/m/it/10 H \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[]\OM
 L/cmm/m/it/10 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--672
+Underfull \hbox (badness 10000) in paragraph at lines 671--673
 
  []
 
 
-Underfull \vbox (badness 4242) has occurred while \output is active []
+Underfull \vbox (badness 4024) has occurred while \output is active []
 
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 704--706
+Underfull \hbox (badness 10000) in paragraph at lines 705--707
 
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 719--722
-\OT1/ppl/m/n/10 gaus-siano $\OML/cmm/m/it/10  \OT1/cmr/m/n/10 = 1$\OT1/ppl/m/n
-/10 . Se con-sid-era este valor por
+Underfull \hbox (badness 4454) in paragraph at lines 720--723
+\OT1/ppl/m/n/10 gaus-siano $\OML/cmm/m/it/10 ^^[ \OT1/cmr/m/n/10 = 1$\OT1/ppl/m
+/n/10 . Se con-sid-era este valor por
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 719--722
+Underfull \hbox (badness 4582) in paragraph at lines 720--723
 \OT1/ppl/m/n/10 ser lo su-fi-cien-te-mente chico para no dis-tor-sionar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 719--722
+Underfull \hbox (badness 10000) in paragraph at lines 720--723
 
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 719--722
-$[]$ \OT1/ppl/m/n/10 Re-solviendo du-das con el pro-fe-sor, lleg-amos a
+Underfull \hbox (badness 2165) in paragraph at lines 720--723
+[]$ \OT1/ppl/m/n/10 Re-solviendo du-das con el pro-fe-sor, lleg-amos a
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-Underfull \hbox (badness 5607) in paragraph at lines 840--841
+Underfull \hbox (badness 5607) in paragraph at lines 841--842
 \OT1/ppl/m/n/10 prop-uestos, se ob-ser-van re-sul-ta-dos muy vari-a-dos
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 840--841
+Underfull \hbox (badness 2875) in paragraph at lines 841--842
 \OT1/ppl/m/n/10 de-pen-di-endo del ruido que se le aplica al valor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--841
+Underfull \hbox (badness 10000) in paragraph at lines 841--842
 
  []
-
-<photo1.jpg, id=22, 3276.24pt x 2457.18pt>
-File: photo1.jpg Graphic file (type jpg)
- <use photo1.jpg>
-Package pdftex.def Info: photo1.jpg used on input line 932.
-(pdftex.def)             Requested size: 1310.47282pt x 982.8546pt.
-
-Overfull \hbox (794.47282pt too wide) in paragraph at lines 932--933
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 322.67961pt on input line 935.
-
-File: photo1.jpg Graphic file (type jpg)
-<use photo1.jpg>
-Package pdftex.def Info: photo1.jpg used on input line 939.
-(pdftex.def)             Requested size: 1310.47282pt x 982.8546pt.
-
-Overfull \hbox (794.47282pt too wide) in paragraph at lines 939--940
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 322.67961pt on input line 942.
-
-File: photo1.jpg Graphic file (type jpg)
-<use photo1.jpg>
-Package pdftex.def Info: photo1.jpg used on input line 946.
-(pdftex.def)             Requested size: 1310.47282pt x 982.8546pt.
-
-Overfull \hbox (794.47282pt too wide) in paragraph at lines 946--947
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 322.67961pt on input line 949.
 
 [3
 
-] [4 <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/
-TP1/mna-tpe1-ej4/doc/photo1.jpg>] [5] [6]
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
-mna-tpe1-ej4\doc\informe.aux") ) 
+]
+Missing character: There is no � in font phvbc7t!
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(../src/ej4.m
+LaTeX Font Info:    Try loading font information for OML+ppl on input line 4.
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omlppl.fd
+File: omlppl.fd 
+)
+LaTeX Font Info:    Font shape `OML/ppl/m/it' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 4.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 12.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
+LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+ [4
+
+])
+(../src/ourQR.m) [5] (./informe.aux) ) 
 Here is how much of TeX's memory you used:
- 3285 strings out of 493921
- 48070 string characters out of 3147279
- 114612 words of memory out of 3000000
- 6518 multiletter control sequences out of 15000+200000
- 47401 words of font info for 106 fonts, out of 3000000 for 9000
- 846 hyphenation exceptions out of 8191
- 36i,9n,26p,713b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fo
-ntname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helve
-tic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/urw/zapfding/uzdr.pfb>
-Output written on informe.pdf (6 pages, 576449 bytes).
+ 5205 strings out of 493633
+ 74857 string characters out of 3143378
+ 195429 words of memory out of 3000000
+ 8402 multiletter control sequences out of 15000+200000
+ 46856 words of font info for 106 fonts, out of 3000000 for 9000
+ 836 hyphenation exceptions out of 8191
+ 36i,9n,43p,619b,2012s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2011/texmf-dist/fonts
+/enc/dvips/base/8r.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmex10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msbm10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhv
+b8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
+></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr
+/local/texlive/2011/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
+/2011/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2011/
+texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on informe.pdf (5 pages, 160144 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 81 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
