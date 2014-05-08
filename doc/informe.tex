@@ -656,7 +656,13 @@ N_0\\ N_1\\ ...\\N_{M-1}
 \begin{equation}
 H = \left(
 \begin{array}{ccccccccc}
-h_0 & 0 & 0 & ... & 0 & 0 & ... & 0 & 0\\ h_1 & h_0 &0&...&0&0&...&0&0\\ ...& ...&...&...&0&0&...&0&0   \\ ...\\h_{L-1}&& h_{L-2}&&... \\ ...&...&...&...&...&...&...&... &... \\ 0&0&0&0&0&0&0&h_1 & h_0
+h_{0} & 0 & 0 & \ldots & 0 & 0 & \ldots & 0 & 0\\ 
+h_1 & h_0 &0&\ldots&0&0&\ldots&0&0 \\
+\ddots & \ddots & \ddots & \ddots &0&0& \ldots&0&0\\
+h_{L-1} &h_{L-2} &   \ldots & h_{1} & h_{0} &0 & \ldots & 0 & 0\\
+0 &h_{L-1} &  \ldots & h_{2} & h_{1} & h_{0} & \ldots & 0 & 0 \\
+\ddots&\ddots&\ddots&\ddots&\ddots&\ddots&\ddots&\ddots & \ddots \\ 
+0&0&0&0&0&0&\ldots&h_1 & h_0
 \end{array}
 \right) \in \mathbb{R}^{M X M}.
 \end{equation}
@@ -678,8 +684,14 @@ h_0\\ h_1\\ ...\\h_L
 
 \begin{equation}
 S = \left(
-\begin{array}{c}
-h_0\\ h_1\\ ...\\h_L
+\begin{array}{ccccccccc}
+s_{0} & 0 & \ldots & \ldots & 0\\ 
+s_{1} & s_{0} &\ldots & \ldots & 0\\
+\vdots & \vdots & \vdots & \vdots &0\\
+s_{L-2} &s_{L-3} &\ldots & s_{0} &0 \\
+s_{L-1} &s_{L-2} &\ldots & s_{1} & s_{0} \\
+s_{L} & s_{L-1} & \ldots &  s_{2} & s_{1}  \\
+\vdots & s_{M-1}& s_{M-2} & \ldots & s_{M-L}
 \end{array}
 \right) \in \mathbb{R}^{M X L}.
 \end{equation}

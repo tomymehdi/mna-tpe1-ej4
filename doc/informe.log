@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  7 MAY 2014 20:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  7 MAY 2014 21:44
 entering extended mode
 **C:/Users/Teresa/Documents/ITBA/Cuarto*Año/Métodos*Numéricos*Avanzados/TP1/
 mna-tpe1-ej4/doc/informe.tex
@@ -380,96 +380,102 @@ Underfull \hbox (badness 10000) in paragraph at lines 626--630
  []
 
 
-Overfull \hbox (32.57957pt too wide) detected at line 662
+Overfull \hbox (46.83585pt too wide) detected at line 668
 \OML/cmm/m/it/10 H \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[]\OM
 L/cmm/m/it/10 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 664--666
+Underfull \hbox (badness 10000) in paragraph at lines 670--672
 
  []
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+Underfull \vbox (badness 4242) has occurred while \output is active []
+
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 692--694
+Underfull \hbox (badness 10000) in paragraph at lines 704--706
 
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 707--710
+Underfull \hbox (badness 4454) in paragraph at lines 719--722
 \OT1/ppl/m/n/10 gaus-siano $\OML/cmm/m/it/10  \OT1/cmr/m/n/10 = 1$\OT1/ppl/m/n
 /10 . Se con-sid-era este valor por
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 707--710
+Underfull \hbox (badness 4582) in paragraph at lines 719--722
 \OT1/ppl/m/n/10 ser lo su-fi-cien-te-mente chico para no dis-tor-sionar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 707--710
+Underfull \hbox (badness 10000) in paragraph at lines 719--722
 
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 707--710
+Underfull \hbox (badness 2165) in paragraph at lines 719--722
 $[]$ \OT1/ppl/m/n/10 Re-solviendo du-das con el pro-fe-sor, lleg-amos a
  []
 
 
-Underfull \hbox (badness 5607) in paragraph at lines 828--829
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \hbox (badness 5607) in paragraph at lines 840--841
 \OT1/ppl/m/n/10 prop-uestos, se ob-ser-van re-sul-ta-dos muy vari-a-dos
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 828--829
+Underfull \hbox (badness 2875) in paragraph at lines 840--841
 \OT1/ppl/m/n/10 de-pen-di-endo del ruido que se le aplica al valor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 828--829
+Underfull \hbox (badness 10000) in paragraph at lines 840--841
 
  []
 
-[2] <photo1.jpg, id=22, 3276.24pt x 2457.18pt>
+<photo1.jpg, id=22, 3276.24pt x 2457.18pt>
 File: photo1.jpg Graphic file (type jpg)
  <use photo1.jpg>
-Package pdftex.def Info: photo1.jpg used on input line 920.
+Package pdftex.def Info: photo1.jpg used on input line 932.
 (pdftex.def)             Requested size: 1310.47282pt x 982.8546pt.
 
-Overfull \hbox (794.47282pt too wide) in paragraph at lines 920--921
+Overfull \hbox (794.47282pt too wide) in paragraph at lines 932--933
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 322.67961pt on input line 923.
+LaTeX Warning: Float too large for page by 322.67961pt on input line 935.
 
 File: photo1.jpg Graphic file (type jpg)
 <use photo1.jpg>
-Package pdftex.def Info: photo1.jpg used on input line 927.
+Package pdftex.def Info: photo1.jpg used on input line 939.
 (pdftex.def)             Requested size: 1310.47282pt x 982.8546pt.
 
-Overfull \hbox (794.47282pt too wide) in paragraph at lines 927--928
+Overfull \hbox (794.47282pt too wide) in paragraph at lines 939--940
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 322.67961pt on input line 930.
+LaTeX Warning: Float too large for page by 322.67961pt on input line 942.
 
 File: photo1.jpg Graphic file (type jpg)
 <use photo1.jpg>
-Package pdftex.def Info: photo1.jpg used on input line 934.
+Package pdftex.def Info: photo1.jpg used on input line 946.
 (pdftex.def)             Requested size: 1310.47282pt x 982.8546pt.
 
-Overfull \hbox (794.47282pt too wide) in paragraph at lines 934--935
+Overfull \hbox (794.47282pt too wide) in paragraph at lines 946--947
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 322.67961pt on input line 937.
+LaTeX Warning: Float too large for page by 322.67961pt on input line 949.
 
 [3
 
@@ -480,11 +486,11 @@ mna-tpe1-ej4\doc\informe.aux") )
 Here is how much of TeX's memory you used:
  3285 strings out of 493921
  48070 string characters out of 3147279
- 110612 words of memory out of 3000000
+ 114612 words of memory out of 3000000
  6518 multiletter control sequences out of 15000+200000
  47401 words of font info for 106 fonts, out of 3000000 for 9000
  846 hyphenation exceptions out of 8191
- 36i,7n,26p,713b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,9n,26p,713b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fo
 ntname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
@@ -499,7 +505,7 @@ tic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb
 Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/zapfding/uzdr.pfb>
-Output written on informe.pdf (6 pages, 575384 bytes).
+Output written on informe.pdf (6 pages, 576449 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
