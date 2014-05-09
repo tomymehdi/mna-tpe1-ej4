@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  9 MAY 2014 10:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  9 MAY 2014 10:47
 entering extended mode
 **C:/Users/Teresa/Documents/ITBA/Cuarto*Año/Métodos*Numéricos*Avanzados/TP1/
 mna-tpe1-ej4/doc/informe.tex
@@ -615,32 +615,32 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <10> not available
 ])
 ("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
 mna-tpe1-ej4\src\ourQR.m") [6]
-Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1024
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1024
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1024
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
 
  []
 
@@ -654,7 +654,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5174 strings out of 493921
  74772 string characters out of 3147279
- 194461 words of memory out of 3000000
+ 194478 words of memory out of 3000000
  8375 multiletter control sequences out of 15000+200000
  48010 words of font info for 107 fonts, out of 3000000 for 9000
  846 hyphenation exceptions out of 8191
@@ -673,7 +673,7 @@ fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/up
 lr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on informe.pdf (7 pages, 642078 bytes).
+Output written on informe.pdf (7 pages, 641707 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -978,8 +978,7 @@ Luego de correr el programa con los distintos valores propuestos, se observan re
 
 
 
-\renewcommand{\refname}{}
-\section{Bibliograf\'ia}
+\renewcommand{\refname}{Bibliograf\'ia}
 \begin{thebibliography}{1}
 \bibitem{Libro}
 John Mattews and Kurtis Fink, \emph{M\'etodos Num\'ericos con Matlab}
@@ -997,7 +996,9 @@ John Mattews and Kurtis Fink, \emph{M\'etodos Num\'ericos con Matlab}
 
 \onecolumn
 
-\section{Anexo}
+\renewcommand\appendixname{Ap\'endice}
+
+\appendix
 \subsection{C\'odigo y ejecuci\'on}
 \lstinputlisting[language=Matlab]{../src/ej4.m} 
 \subsection{Implementaci\'on QR por G-S}
