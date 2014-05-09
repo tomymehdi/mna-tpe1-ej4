@@ -722,7 +722,7 @@ Para efectuar las pruebas correspondientes, se considera utilizar un $L={1,10,30
 $^{[1]}$ Resolviendo dudas con el profesor, se ha llegado a la conclusi\'on de que a valores de $L$ mayores a 10, el resultado obtenido no es satisfactorio. Por este motivo, para que la prueba sea exitosa los valores de $L$ deben ser $L={1, 2, 3, 4, 5}$.\\
 $^{[2]}$ Debido a que, en la implementaci\'on, la imagen se transmit\'ia con $L=30$ (valor bastante distinto a los valores de $L$ usados para recuperar la informaci\'on), los resultados obtenidos eran dispares e inconexos. Se acord\'o con el profesor que, en vez de rehacer todo el trabajo, agregar las pruebas realizadas con este nuevo cambio, en el cual la informaci\'on se transmite con $L=5$, usando $\sigma=1$, $M=512$ y se considera a la hora de recibir los datos $L={1, 2, 3, 4, 5}$. \\
 
-\section{Resultados y conclusiones}
+\section{Resultados}
 
 Para $L = {1}$, $M = {32}$ y $\sigma = 1$ se observa que la imagen de Lena se recupera de manera confiable a pesar de que el canal era inestable.
 
@@ -766,18 +766,81 @@ Para $L = {4}$ y $L = {5}$ con $M = {512}$ y $\sigma = 1$ suceden una situacione
 
 Luego de haber descubierto el error mencionado en la secci\'on anterior, se procedi\'o a realizar las pruebas pertinentes.
 
-Para $L = {1}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recupera de manera confiable (aunque con tonalidades m\'as blanquecinas que la original). 
+Para $L = {1}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recupera de manera confiable (aunque con tonalidades m\'as blanquecinas que la original) (ver Fig.1). 
 
-Para $L = {3}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recupera de una manera mucho m\'as confiable que en la caso anterior.
+Para $L = {3}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recupera de una manera mucho m\'as confiable que en la caso anterior (ver Fig.2).
 
-Para $L = {5}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recupera completamente distorsionada.
+Para $L = {5}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recupera completamente distorsionada.(ver Fig.3)\\
 
+\begin{figure}
+\begin{center}
+\label{fig:refuerzos2}
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+
+  \includegraphics[scale=0.25]{../Linterno5/512/1/imgTrans.jpg}
+\end{minipage}
+\vspace{0cm}
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[scale=0.25]{../Linterno5/512/1/imgRec.jpg}
+  \label{fig:sub2}
+\end{minipage}
+\caption{Imagen transmitida (arriba) y recibida (abajo) usando $L=1 , M=512, sigma=1$.}
+\label{fig:test}
+\end{center}
+\end{figure}
+
+
+\begin{figure}
+\begin{center}
+\label{fig:refuerzos2}
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+
+  \includegraphics[scale=0.25]{../Linterno5/512/3/imgTrans.jpg}
+  \label{fig:sub1}
+\end{minipage}
+\vspace{0cm}
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[scale=0.25]{../Linterno5/512/3/imgRec.jpg}
+  \label{fig:sub2}
+\end{minipage}
+\caption{Imagen transmitida (arriba) y recibida (abajo) usando $L=3 , M=512, \sigma=1$.}
+\label{fig:test}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\label{fig:refuerzos2}
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+
+  \includegraphics[scale=0.25]{../Linterno5/512/5/imgTrans.jpg}
+  \label{fig:sub1}
+\end{minipage}
+\vspace{0cm}
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[scale=0.25]{../Linterno5/512/5/imgRec.jpg}
+  \label{fig:sub2}
+\end{minipage}
+\caption{Imagen transmitida (arriba) y recibida (abajo) usando $L=5 , M=512, \sigma=1$.}
+\label{fig:test}
+\end{center}
+\end{figure}
 
 
 %\begin{figure}[H]
 %\label{fig:refuerzos2}
 %\begin{center}
-%\includegraphics[width=3.5in]{../plots/test6.2}
+%\includegraphics[scale=0.5]{../Linterno5/512/1/imgRec.jpg}
+%\includegraphics[scale=0.5]{../Linterno5/512/1/imgTrans.jpg}
 % \DeclareGraphicsExtensions.
 %\caption{1 entrada, 3 neuronas capa oculta, 1 salida}
 %\end{center}
@@ -935,5 +998,19 @@ John Mattews and Kurtis Fink, \emph{M\'etodos Num\'ericos con Matlab}
 \subsection{Implementaci\'on QR por G-S}
 \lstinputlisting[language=Matlab]{../src/ourQR.m} 
 
+\subsection{Otros datos representativos de las pruebas}
+\begin{tabular}{l l}
+\hline\hline
+h & hestimada\\
+\hline
+0.0592715994972346\\
+0.316475471117918\\
+0.323844578892922\\
+0.531842458909969\\
+0.402201195880913\\
+
+\hline\hline
+\label{board1_sinpoda}
+\end{tabular}
 
 \end{document} 

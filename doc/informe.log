@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  9 MAY 2014 02:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  9 MAY 2014 09:49
 entering extended mode
 **C:/Users/Teresa/Documents/ITBA/Cuarto*Año/Métodos*Numéricos*Avanzados/TP1/
 mna-tpe1-ej4/doc/informe.tex
@@ -308,7 +308,29 @@ Package morefloats Info: Maximum number of possible floats asked for: 36.
 \bx@AJ=\insert216
 )
 ("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
-mna-tpe1-ej4\doc\informe.aux")
+mna-tpe1-ej4\doc\informe.aux"
+
+LaTeX Warning: Label `fig:refuerzos2' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test' multiply defined.
+
+
+LaTeX Warning: Label `fig:refuerzos2' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 434.
 LaTeX Font Info:    ... okay on input line 434.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 434.
@@ -321,8 +343,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 434.
 LaTeX Font Info:    ... okay on input line 434.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 434.
 LaTeX Font Info:    ... okay on input line 434.
-
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count117
 \scratchdimen=\dimen132
@@ -449,36 +470,127 @@ Underfull \hbox (badness 10000) in paragraph at lines 720--724
  []
 
 [2]
-Underfull \hbox (badness 5607) in paragraph at lines 845--846
+Underfull \hbox (badness 10000) in paragraph at lines 773--774
+
+ []
+
+<../Linterno5/512/1/imgTrans.jpg, id=22, 385.44pt x 385.44pt>
+File: ../Linterno5/512/1/imgTrans.jpg Graphic file (type jpg)
+
+<use ../Linterno5/512/1/imgTrans.jpg>
+Package pdftex.def Info: ../Linterno5/512/1/imgTrans.jpg used on input line 782
+.
+(pdftex.def)             Requested size: 96.35976pt x 96.35976pt.
+
+<../Linterno5/512/1/imgRec.jpg, id=23, 385.44pt x 385.44pt>
+File: ../Linterno5/512/1/imgRec.jpg Graphic file (type jpg)
+
+<use ../Linterno5/512/1/imgRec.jpg>
+Package pdftex.def Info: ../Linterno5/512/1/imgRec.jpg used on input line 787.
+(pdftex.def)             Requested size: 96.35976pt x 96.35976pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 779--790
+ $[]$ 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 779--790
+ $[]$ 
+ []
+
+<../Linterno5/512/3/imgTrans.jpg, id=24, 385.44pt x 385.44pt>
+File: ../Linterno5/512/3/imgTrans.jpg Graphic file (type jpg)
+
+<use ../Linterno5/512/3/imgTrans.jpg>
+Package pdftex.def Info: ../Linterno5/512/3/imgTrans.jpg used on input line 803
+.
+(pdftex.def)             Requested size: 96.35976pt x 96.35976pt.
+
+<../Linterno5/512/3/imgRec.jpg, id=25, 385.44pt x 385.44pt>
+File: ../Linterno5/512/3/imgRec.jpg Graphic file (type jpg)
+
+<use ../Linterno5/512/3/imgRec.jpg>
+Package pdftex.def Info: ../Linterno5/512/3/imgRec.jpg used on input line 809.
+(pdftex.def)             Requested size: 96.35976pt x 96.35976pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 800--812
+ $[]$ 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 800--812
+ $[]$ 
+ []
+
+<../Linterno5/512/5/imgTrans.jpg, id=26, 385.44pt x 385.44pt>
+File: ../Linterno5/512/5/imgTrans.jpg Graphic file (type jpg)
+
+<use ../Linterno5/512/5/imgTrans.jpg>
+Package pdftex.def Info: ../Linterno5/512/5/imgTrans.jpg used on input line 824
+.
+(pdftex.def)             Requested size: 96.35976pt x 96.35976pt.
+
+<../Linterno5/512/5/imgRec.jpg, id=27, 385.44pt x 385.44pt>
+File: ../Linterno5/512/5/imgRec.jpg Graphic file (type jpg)
+
+<use ../Linterno5/512/5/imgRec.jpg>
+Package pdftex.def Info: ../Linterno5/512/5/imgRec.jpg used on input line 830.
+(pdftex.def)             Requested size: 96.35976pt x 96.35976pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 821--833
+ $[]$ 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 821--833
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 908--909
 \OT1/ppl/m/n/10 prop-uestos, se ob-ser-van re-sul-ta-dos muy vari-a-dos
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 845--846
+Underfull \hbox (badness 2875) in paragraph at lines 908--909
 \OT1/ppl/m/n/10 de-pen-di-endo del ruido que se le aplica al valor
  []
 
 
-Underfull \hbox (badness 7504) in paragraph at lines 845--846
+Underfull \hbox (badness 7504) in paragraph at lines 908--909
 \OT1/ppl/m/n/10 trans-mi-tido. Se ob-ser-van situa-ciones en las que
  []
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 845--846
+Underfull \hbox (badness 2326) in paragraph at lines 908--909
 \OT1/ppl/m/n/10 re-cu-peran im[]agenes com-ple-ta-mente dis-tin-tas. Antes
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 845--846
+Underfull \hbox (badness 2418) in paragraph at lines 908--909
 \OT1/ppl/m/n/10 re-al-izadas, se puede afir-mar que tomando val-ores
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 845--846
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
 
  []
 
-[3] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/T
+P1/mna-tpe1-ej4/Linterno5/512/1/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/C
+uarto Año/Métodos Numéricos Avanzados/TP1/mna-tpe1-ej4/Linterno5/512/1/imgRe
+c.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzado
+s/TP1/mna-tpe1-ej4/Linterno5/512/3/imgTrans.jpg> <C:/Users/Teresa/Documents/ITB
+A/Cuarto Año/Métodos Numéricos Avanzados/TP1/mna-tpe1-ej4/Linterno5/512/3/im
+gRec.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanz
+ados/TP1/mna-tpe1-ej4/Linterno5/512/5/imgTrans.jpg> <C:/Users/Teresa/Documents/
+ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP1/mna-tpe1-ej4/Linterno5/512/5
+/imgRec.jpg>] [4
+
+] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
 ("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
@@ -497,39 +609,46 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
- [4
+ [5
 
 ])
 ("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
-mna-tpe1-ej4\src\ourQR.m") [5]
+mna-tpe1-ej4\src\ourQR.m")
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+[7]
 ("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
-mna-tpe1-ej4\doc\informe.aux") ) 
+mna-tpe1-ej4\doc\informe.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5138 strings out of 493921
- 73778 string characters out of 3147279
- 194016 words of memory out of 3000000
- 8340 multiletter control sequences out of 15000+200000
- 46856 words of font info for 106 fonts, out of 3000000 for 9000
+ 5175 strings out of 493921
+ 74788 string characters out of 3147279
+ 194459 words of memory out of 3000000
+ 8376 multiletter control sequences out of 15000+200000
+ 48010 words of font info for 107 fonts, out of 3000000 for 9000
  846 hyphenation exceptions out of 8191
  36i,9n,43p,1219b,2012s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fo
-ntname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helve
-tic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding
-/uzdr.pfb>
-Output written on informe.pdf (5 pages, 173420 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
+rw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/up
+lr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on informe.pdf (7 pages, 639789 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
