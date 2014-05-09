@@ -462,7 +462,7 @@
 \author{Mar\'ia de la Puerta Echeverr\'ia (50009),
        Teresa Fontanella De Santis (52455) y
 	Tom\'as Mehdi (51014)
-	\\~\IEEEmembership{Grupo 2 - Instituto Tecnol\'ogico de Buenos Aires (ITBA)}
+	\\~\IEEEmembership{Grupo 2 - Trabajo Pr\'actico 1 - Instituto Tecnol\'ogico de Buenos Aires (ITBA)}
 	
 %\IEEEcompsocitemizethanks{\IEEEcompsocthanksitem M. Shell is with the Department
 %of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta,
@@ -717,7 +717,7 @@ encontrar $\vec{h} \in \mathbb{R}^{L} $ que minimice
 \end{equation}
 
 \subsection{Pruebas realizadas}
-Para efectuar las pruebas correspondientes, se considera utilizar un $L={1,10,30,50}^{[1]}$ , aplicando un ruido gaussiano $\sigma=1$. Se considera este valor por ser lo suficientemente chico para no distorsionar demasiado los datos a transmitir. Tambi\'en se prueba con diferentes longitudes de la cadena de entrenamiento $M={32,512,1024}$. \\  Para analizar c\'omo se estima en "condiciones \'optimas" (verbigracia: sin ruido, etc). tambi\'en se prueba con $M=512$ y $\sigma=0$ (con los valores de $L$ ya mencionados). $^{[2]}$\\
+Para efectuar las pruebas correspondientes, se considera utilizar un $L={1,10,30,50}^{[1]}$ , aplicando un ruido gaussiano $\sigma=1$. Se considera este valor por ser lo suficientemente chico para no distorsionar demasiado los datos a transmitir. Tambi\'en se prueba con diferentes longitudes de la cadena de entrenamiento $M={32,512,1024}$. \\  Para analizar c\'omo se estima en "condiciones \'optimas" (verbigracia: sin ruido, etc.), tambi\'en se prueba con $M=512$ y $\sigma=0$ (con los valores de $L$ ya mencionados). $^{[2]}$\\
 \\
 $^{[1]}$ Resolviendo dudas con el profesor, se ha llegado a la conclusi\'on de que a valores de $L$ mayores a 10, el resultado obtenido no es satisfactorio. Por este motivo, para que la prueba sea exitosa los valores de $L$ deben ser $L={1, 2, 3, 4, 5}$.\\
 $^{[2]}$ Debido a que, en la implementaci\'on, la imagen se transmit\'ia con $L=30$ (valor bastante distinto a los valores de $L$ usados para recuperar la informaci\'on), los resultados obtenidos eran dispares e inconexos. Se acord\'o con el profesor que, en vez de rehacer todo el trabajo, agregar las pruebas realizadas con este nuevo cambio, en el cual la informaci\'on se transmite con $L=5$, usando $\sigma=1$, $M=512$ y se considera a la hora de recibir los datos $L={1, 2, 3, 4, 5}$. \\
@@ -762,13 +762,13 @@ Para $L = {2}$, $M = {512}$ y $\sigma = 1$ se transmiten tres im\'agenes, dos co
 
 Para $L = {3}$, $M = {512}$ y $\sigma = 1$ y tres im\'agenes con distinto ruido aunque similar en nivel, dos se recuperan defectuosas y una confiable.
 
-Para $L = {4}$ y $L = {5}$ con $M = {512}$ y $\sigma = 1$ suceden una situaciones similares al caso anterior.
+Para $L = {4}$ y $L = {5}$ con $M = {512}$ y $\sigma = 1$ suceden situaciones similares al caso anterior.
 
-Luego de haber descubierto el error mencionado en la secci\'on anterior, se procedi\'o a realizar las pruebas pertinentes.
+Luego de haber descubierto el error mencionado en la secci\'on anterior, se procede a realizar las pruebas pertinentes.
 
 Para $L = {1}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recupera de manera confiable (aunque con tonalidades m\'as blanquecinas que la original) (ver Fig.1). 
 
-Para $L = {3}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recupera de una manera mucho m\'as confiable que en la caso anterior (ver Fig.2).
+Para $L = {3}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recupera de una manera mucho m\'as confiable que en el caso anterior (ver Fig.2).
 
 Para $L = {5}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recupera completamente distorsionada.(ver Fig.3)\\
 
@@ -905,7 +905,7 @@ Para $L = {5}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recup
 
 \section{Conclusiones}
 
-Luego de correr el programa con los distintos valores propuestos, se observan resultados muy variados dependiendo del ruido que se le aplica al valor transmitido. Se observan situaciones en las que dadas dos im\'agenes con valor de ruido similar, se recuperan im\'agenes completamente distintas. Antes de la correcci\'on efectuada, no se pod\'ia afirmar que este m\'etodo depende de que el ruido sea menor para obtener una recuperaci\'on exitosa, ya que se observaba situaciones en las que se obtiene una imagen muy distorsionada, habiendo transmitido una imagen con poco ruido. Despu\'es, con el \'ultimo set de pruebas realizadas, se puede afirmar que tomando valores muy altos de $L$, la imagen no se recupera bien, pero que, para el resto de los valores de $L$, se recupera de manera aceptable. Esto puede ocurrir debido a que, a\'un cuando el $L$ estimado sea igual al real, los errores de precisi\'on provocan im\'agenes distorsionadas (como ocurre con $L=5$).  Sin embargo, se puede concluir que este m\'etodo puede usarse para la estimaci\'on de un canal de comunicaciones, para $L$ chicos. \\
+Luego de correr el programa con los distintos valores propuestos, se observan resultados muy variados dependiendo del ruido que se le aplica al valor transmitido. Se observan situaciones en las que dadas dos im\'agenes con valor de ruido similar, se recuperan im\'agenes completamente distintas. Antes de la correcci\'on efectuada, era imposible afirmar que este m\'etodo dependiera de que el ruido sea menor para obtener una recuperaci\'on exitosa, ya que se observaban situaciones en las que se obtiene una imagen muy distorsionada, habiendo transmitido una imagen con poco ruido. Despu\'es, con el \'ultimo set de pruebas realizadas, se puede afirmar que tomando valores muy altos de $L$, la imagen no se recupera bien, pero que, para el resto de los valores de $L$, se recupera de manera aceptable. Esto puede ocurrir debido a que, a\'un cuando el $L$ estimado sea igual al real, los errores de precisi\'on provocan im\'agenes distorsionadas (como ocurre con $L=5$).  Sin embargo, se puede concluir que este m\'etodo puede usarse para la estimaci\'on de un canal de comunicaciones, para $L$ chicos. \\
 
 % if have a single appendix:
 %\appendix[Proof of the Zonklar Equations]
@@ -977,10 +977,15 @@ Luego de correr el programa con los distintos valores propuestos, se observan re
 % (used to reserve space for the reference number labels box)
 
 
-\begin{thebibliography}{1}
 
+\renewcommand{\refname}{}
+\section{Bibliograf\'ia}
+\begin{thebibliography}{1}
 \bibitem{Libro}
 John Mattews and Kurtis Fink, \emph{M\'etodos Num\'ericos con Matlab}
+\bibitem{Libro} Apuntes de la C\'atedra.
+\bibitem{Libro} Consultas a la C\'atedra, a quien agradecemos su gentil colaboraci\'on, por su experta ayuda  en la preparaci\'on de este art\'iculo.
+
 %\bibitem{Filminas}
 %Maria Cristina Parpaglione, \emph{Clase 1-2-3.}
 %\bibitem{Link}
@@ -992,25 +997,68 @@ John Mattews and Kurtis Fink, \emph{M\'etodos Num\'ericos con Matlab}
 
 \onecolumn
 
-\section{Anexo c\'odigo}
-\subsection{Ejecuci\'on}
+\section{Anexo}
+\subsection{C\'odigo y ejecuci\'on}
 \lstinputlisting[language=Matlab]{../src/ej4.m} 
 \subsection{Implementaci\'on QR por G-S}
 \lstinputlisting[language=Matlab]{../src/ourQR.m} 
-
+ \newpage
 \subsection{Otros datos representativos de las pruebas}
-\begin{tabular}{l l}
+ 
+\begin{tabular}{l c}
 \hline\hline
-h & hestimada\\
-\hline
-0.0592715994972346\\
-0.316475471117918\\
-0.323844578892922\\
-0.531842458909969\\
-0.402201195880913\\
+h & h\_estimada\\
+\hline \\
+0.0592715994972346 & 1.22138294001092\\
+0.316475471117918 &\\
+0.323844578892922 &\\
+0.531842458909969 &\\
+0.402201195880913 &\\
 
 \hline\hline
-\label{board1_sinpoda}
+
 \end{tabular}
+ 
+Tabla 1 : Valores correspondientes a la prueba con $L=1 , M=512, 1$ de Fig.1 \\ \\ \\
+
+\begin{tabular}{l c}
+\hline\hline
+h &  h\_estimada\\
+\hline \\
+
+0.445541676764217 & 0.457982382433996\\
+0.101034422381018 & 0.147135682171331\\
+0.0637079819621977 & 0.0806792295209017\\
+-0.132967712825480 \\
+0.219679633044226\\
+
+
+
+\hline\hline
+
+\end{tabular}
+ 
+Tabla 2 : Valores correspondientes a la prueba con $L=3 , M=512, 1$ de Fig.2 \\ \\ \\
+
+\begin{tabular}{l c}
+\hline\hline
+h &  h\_estimada\\
+\hline \\
+
+0.0455337140835005 & 0.0449846995202603\\
+0.108336297046597 & 0.108106879455770\\
+0.149204486339813 & 0.149598377126117\\
+0.453840022112420 & 0.453617070901002\\
+0.607263144894805 & 0.608308008105862\\
+
+
+
+
+\hline\hline
+
+\end{tabular}
+ 
+Tabla 3 : Valores correspondientes a la prueba con $L=5 , M=512, 1$ de Fig.3
+
 
 \end{document} 
