@@ -14,4 +14,4 @@ h_estimada = R\(Q'*sTrainReceived.'); % Resolvemos R*h = Q'*r
 H_estimada = toeplitz([h_estimada.' zeros(1,M-L)],zeros(1,M)); % Obtenemos H con h
 
 
-endfunction
+end

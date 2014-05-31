@@ -717,15 +717,13 @@ encontrar $\vec{h} \in \mathbb{R}^{L} $ que minimice
 \end{equation}
 
 \subsection{Pruebas realizadas}
-Para efectuar las pruebas correspondientes, se considera utilizar un $L={1,10,30,50}$\footnote{Resolviendo dudas con el profesor, se ha llegado a la conclusi\'on de que a valores de $L$ mayores a 10, el resultado obtenido no es satisfactorio. Por este motivo, para que la prueba sea exitosa los valores de $L$ deben ser $L={1, 2, 3, 4, 5}$.}, aplicando un ruido gaussiano $\sigma=1$. Se considera este valor por ser lo suficientemente chico para no distorsionar demasiado los datos a transmitir. Tambi\'en se prueba con diferentes longitudes de la cadena de entrenamiento $M={32,512,1024}$. \\  Para analizar c\'omo se estima en "condiciones \'optimas" (verbigracia: sin ruido, etc.), tambi\'en se prueba con $M=512$ y $\sigma=0$ (con los valores de $L$ ya mencionados)\footnote{Debido a que, en la implementaci\'on, la imagen se transmit\'ia con $L=30$ (valor bastante distinto a los valores de $L$ usados para recuperar la informaci\'on), los resultados obtenidos eran dispares e inconexos. Se acord\'o con el profesor que, en vez de rehacer todo el trabajo, agregar las pruebas realizadas con este nuevo cambio, en el cual la informaci\'on se transmite con $L=5$, usando $\sigma=1$, $M=512$ y se considera a la hora de recibir los datos $L={1, 2, 3, 4, 5}$.}.\\
+Para efectuar las pruebas correspondientes, se considera utilizar un $L={1,10,30,50}$\footnote[1]{Resolviendo dudas con el profesor, se ha llegado a la conclusi\'on de que a valores de $L$ mayores a 10, el resultado obtenido no es satisfactorio. Por este motivo, para que la prueba sea exitosa los valores de $L$ deben ser $L={1, 2, 3, 4, 5}$.}, aplicando un ruido gaussiano $\sigma=1$. Se considera este valor por ser lo suficientemente chico para no distorsionar demasiado los datos a transmitir. Tambi\'en se prueba con diferentes longitudes de la cadena de entrenamiento $M={32,512,1024}$. \\  Para analizar c\'omo se estima en "condiciones \'optimas" (verbigracia: sin ruido, etc.), tambi\'en se prueba con $M=512$ y $\sigma=0$ (con los valores de $L$ ya mencionados)\footnote[2]{Debido a que, en la implementaci\'on, la imagen se transmit\'ia con $L=30$ (valor bastante distinto a los valores de $L$ usados para recuperar la informaci\'on), los resultados obtenidos eran dispares e inconexos. Se acord\'o con el profesor que, en vez de rehacer todo el trabajo, agregar las pruebas realizadas con este nuevo cambio, en el cual la informaci\'on se transmite con $L=5$, usando $\sigma=1$, $M=512$ y se considera a la hora de recibir los datos $L={1, 2, 3, 4, 5}$.}.\\
 \\
 
 
 \section{Resultados}
 
 Para $L = {1}$, $M = {32}$ y $\sigma = 1$ se observa que la imagen de Lena se recupera de manera confiable a pesar de que el canal era inestable.
-
-%\includegraphics{imgRec.jpg}
 
 Para $L = {2}$, $M = {32}$ y $\sigma = 1$ la imagen se recupera en forma err\'onea dadas dos im\'agenes con distinto ruido.
 
@@ -980,7 +978,7 @@ Luego de correr el programa con los distintos valores propuestos, se observan re
 \renewcommand{\refname}{Bibliograf\'ia}
 \begin{thebibliography}{1}
 \bibitem{Libro}
-John Mattews and Kurtis Fink, \emph{M\'etodos Num\'ericos con Matlab}
+John Mattews and Kurtis Fink, \emph{M\'etodos Num\'ericos con Matlab, Fecha de publicacion: Mayo 2000 | ISBN-10: 8483221810 | ISBN-13: 978-8483221815 | Edicion: 3}
 \bibitem{Libro} Apuntes de la C\'atedra.
 \bibitem{Libro} Consultas a la C\'atedra, a quien agradecemos su gentil colaboraci\'on, por su experta ayuda  en la preparaci\'on de este art\'iculo.
 
@@ -998,10 +996,12 @@ John Mattews and Kurtis Fink, \emph{M\'etodos Num\'ericos con Matlab}
 \renewcommand\appendixname{Ap\'endice}
 
 \appendix
-\subsection{C\'odigo y ejecuci\'on}
-\lstinputlisting[language=Matlab]{../src/ej4.m} 
-\subsection{Implementaci\'on QR por G-S}
-\lstinputlisting[language=Matlab]{../src/ourQR.m} 
+\subsection{C\'odigo y ejecuci\'on paso 1}
+\lstinputlisting[language=Matlab]{../ej4Step1.m} 
+\subsection{C\'odigo y ejecuci\'on paso 2}
+\lstinputlisting[language=Matlab]{../ej4Step2.m} 
+\subsection{Implementaci\'on QR completo por G-S}
+\lstinputlisting[language=Matlab]{../ourQR.m} 
  \newpage
 \subsection{Otros datos representativos de las pruebas}
  

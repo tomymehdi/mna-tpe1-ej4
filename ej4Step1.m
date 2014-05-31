@@ -37,4 +37,4 @@ imshow(b);
 imwrite(b,'imgTrans.gif');
 
 
-endfunction
+end
