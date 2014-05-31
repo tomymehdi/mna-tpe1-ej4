@@ -56,7 +56,7 @@ sTrainReceived = double(r(:,P)); % r, lo que recibi del entrenamiento
 [Q R] = qr(S); % S*h = r  Entonces Q'*S*h = Q'*r Entonces R*h = Q'*r
 %[Q R] = ourQR(S); % Nuestra implementacion
 
-h_estimada = pinv(R)*(Q'*sTrainReceived); % Resolvemos R*h = Q'*r
+h_estimada = R\(Q'*sTrainReceived); % Resolvemos R*h = Q'*r
 H_estimada = toeplitz([h_estimada.' zeros(1,M-L)],zeros(1,M)); % Obtenemos H con h
 
 %PASO 3
