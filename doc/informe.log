@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  31 MAY 2014 00:36
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  31 MAY 2014 00:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,10 +665,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5259 strings out of 493633
- 76061 string characters out of 3143378
- 196442 words of memory out of 3000000
- 8449 multiletter control sequences out of 15000+200000
+ 5258 strings out of 493633
+ 76045 string characters out of 3143378
+ 196434 words of memory out of 3000000
+ 8448 multiletter control sequences out of 15000+200000
  50198 words of font info for 116 fonts, out of 3000000 for 9000
  836 hyphenation exceptions out of 8191
  36i,9n,43p,1300b,1719s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -690,7 +690,7 @@ s/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type
 alatino/uplr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/zapfding/uzdr.
 pfb>
-Output written on informe.pdf (7 pages, 643037 bytes).
+Output written on informe.pdf (7 pages, 643011 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream

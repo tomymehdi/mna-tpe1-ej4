@@ -33,6 +33,7 @@ N = sigma*randn(M,1); % ruido
 for k=1:P
     s = double(a(k,:)'); % lo que se envia
     r(:,k) = H*s+N; % lo que se recibe
+    N = sigma*randn(M,1); % mas ruido
 end
 b = uint8(r(:,1:P-1).');
 %imshow(b);
