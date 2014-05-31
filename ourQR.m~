@@ -5,9 +5,16 @@ function [Q R] = ourQR (A)
     for i=2:cols
         Q(:,i)=A(:,i);
         for k=1:i-1
-            Q(:,i) = Q(:,i)-(A(:,i)*(Q(:,k)))*Q(:,k);
+            Q(:,i) = Q(:,i) - ((Q(:,i))'*Q(:,k)) * Q(:,k);
         end
-        Q(i,:)=Q(i,:)/norm(Q(i,:),2);
+        Q(:,i) = Q(:,i)/norm(Q(:,i),2);
     end
-    R= (Q')*A;
+    R = (Q')*A;
+    [Rrows Rcols] = size(R);
+    R = [ R ; zeros(rows-Rrows) ];
+    
+    for j=cols:rows
+        extension = Q(:,j) - 
+        Q = [Q , extension]
+    end
 end
