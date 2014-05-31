@@ -13,8 +13,8 @@ function [Q R] = ourQR (A)
             Q(:,i) = Q(:,i) - ((Q(:,i))'*Q(:,k)) * Q(:,k);
         end
         Q(:,i) = Q(:,i)/norm(Q(:,i),2);
-        R(:,1)=Q(:,i)'*A(:,i);
     end
+    R = (Q(1:rows,1:cols)')*A;
     [Rrows Rcols] = size(R);
     R = [ R ; zeros(rows-Rrows,Rcols) ];
     
