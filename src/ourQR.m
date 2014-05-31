@@ -1,30 +1,20 @@
-%si estas en matlab usar el siguiente codigo
 function [Q R] = ourQR (A)
-   [m n]=size(A);
+   [rows cols]=size(A);
     Q(:,1)=A(:,1);
     Q(:,1)=Q(:,1)/norm(Q(:,1),2);
-    for i=2:n
-        Q(:,i)=A(:,i);
-        for k=1:i-1
-            Q(:,i)=Q(:,i)-((A(:,i))'*Q(:,k))*Q(:,k);
+    for i=2:rows
+        if i > cols
+            Q(:,i)=rand(3,1);
+        else
+            Q(:,i)=A(:,i);
         end
-        Q(:,i)=Q(:,i)/norm(Q(:,i),2);
+        for k=1:i-1
+            Q(:,i) = Q(:,i) - ((Q(:,i))'*Q(:,k)) * Q(:,k);
+        end
+        Q(:,i) = Q(:,i)/norm(Q(:,i),2);
     end
-    R= (Q')*A;
+    R = (Q(1:rows,1:cols)')*A;
+    [Rrows Rcols] = size(R);
+    R = [ R ; zeros(rows-Rrows,Rcols) ];
+    
 end
-
-%si estas en octave usar el siguiente codigo
-%function [Q R] = ourQR (A)
-%   [m n]=size(A);
-%    Q(:,1)=A(:,1);
-%    Q(:,1)=Q(:,1)/norm(Q(:,1),2);
-%    for i=2:n
-%        Q(:,i)=A(:,i);
-%        for k=1:i-1
-%            Q(:,i)=Q(:,i)-((A(:,i))'*Q(:,k))*Q(:,k);
-%        endfor
-%        Q(:,i)=Q(:,i)/norm(Q(:,i),2);
-%    endfor
-%    R= (Q')*A;
-%endfunction
-
