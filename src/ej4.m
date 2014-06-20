@@ -64,6 +64,7 @@ H_estimada = toeplitz([h_estimada.' zeros(1,M-L)],zeros(1,M)); % Obtenemos H con
 r2 = r.';
 for k=1:P-1
     u(:,k) = H_estimada\r(:,k); %lo que se recupera
+    u(:,k) = H_estimada\r(:,k); %lo que se recupera
 end
 %u(:,P+1) = sTrainReceived; %lo que recibi ultima linea
 b2 = uint8(u.');
