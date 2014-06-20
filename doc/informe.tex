@@ -729,6 +729,22 @@ Para poder cuantificar la confiabilidad de una imagen recuperada, se ha pensado 
 \end{equation}
 
 
+\begin{table}[ht] 
+\centering  
+\begin{tabular}{c | c | c | c | c}  
+\hline\hline
+L   M & 32 & 64 & 256 & 512 \\ \hline 
+1 & 0.0020866 & 0.0015945 & 0.0031052 & 0.012386 \\  
+2 & 0.00079727 & 0.029865 & 0.023960  & 0 \\ 
+3 & 0 & 0.0011215 & 0.00055695 & 0\\ 
+4 & 0.000030518 & 0.00029755 & 0.059250 & 0 \\ 
+5 & 0.00022125 & 0.10743 & 0.00088501 & 0.0011826  \\ [1ex]  
+\hline 
+\end{tabular} 
+\label{table:nonlin}  
+\end{table} 
+
+
 Para $L = {1}$, $M = {32}$ y $\sigma = 1$ se observa que la imagen de Lena se recupera de manera confiable a pesar de que el canal era inestable.
 
 Para $L = {2}$, $M = {32}$ y $\sigma = 1$ la imagen se recupera en forma err\'onea dadas dos im\'agenes con distinto ruido.
