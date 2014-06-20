@@ -615,7 +615,7 @@ En el presente art\'iculo se describe la estimaci\'on de un canal de un sistema 
 %
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{U}n sistema de comunicaciones consta, como m\'inimo, de tres componentes: un transmisor (que env\'ia los datos), un receptor (que los recibe) y el medio por donde se transmiten los datos o \textit{canal}. Dado que \'este \'ultimo modifica la informaci\'on transmitida, es necesario que el receptor pueda conocerlo, para poder interpretar los datos de forma adecuada. Como generalmente no se conoce, resulta necesario estimarlo. A eso se le llama \textit{estimaci\'on del canal}. En el presente informe se estima el canal, utilizando el m\'etodo QR para cuadrados m\'inimos.\\
+\IEEEPARstart{U}n sistema de comunicaciones consta, como m\'inimo, de tres componentes: un transmisor (que env\'ia los datos), un receptor (que los recibe) y el medio por donde se transmiten los datos o \textit{canal}. Dado que este \'ultimo modifica la informaci\'on transmitida, es necesario que el receptor pueda conocerlo, para poder interpretar los datos de forma adecuada. Como generalmente no se conoce, resulta necesario estimarlo. A eso se le llama \textit{estimaci\'on del canal}. En el presente informe se estima el canal, utilizando el m\'etodo QR para cuadrados m\'inimos.\\
 En la siguiente secci\'on, Metodolog\'ia Utilizada, se describe la misma, as\'i como las pruebas realizadas.
 En la \'ultima secci\'on se muestran los resultados obtenidos y se extraen conclusiones. \\
 % You must have at least 2 lines in the paragraph with the drop letter
@@ -629,11 +629,11 @@ La modificaci\'on de los datos por el canal se presenta por la denominada \texti
 Adem\'as de ser modificados por el canal, los datos son afectados por ruido blanco Gaussiano aditivo ${N_k}\sim N(0, \sigma)$.\\
 Teniendo todo esto en cuenta, cada $T$ segundos el receptor observa: \\
 \begin{equation}
-r_n = \sum_{k=0}^{L-1} {h_{k}s_{n-k}}+N_n
+r_n = \sum_{k=0}^{L-1} {h_{k}s_{n-k}}+N_n.
 \end{equation}
 Tambi\'en podemos expresar la Ec. (1) en forma matricial como
 \begin{equation}
-\vec{r} = H\vec{s}+\vec{N}
+\vec{r} = H\vec{s}+\vec{N},
 \end{equation}
 donde
 \begin{equation}
@@ -641,17 +641,16 @@ donde
 \begin{array}{c}
 r_0\\ r_1\\ ...\\r_M
 \end{array}
-\right)
- , \vec{s}= \left(
+\right),  \vec{s}= \left(
 \begin{array}{c}
 s_0\\ s_1\\ ...\\s_{M-1}
 \end{array}
-\right)  ,
+\right), 
 \vec{N}=\left(
 \begin{array}{c}
 N_0\\ N_1\\ ...\\N_{M-1}
 \end{array}
-\right)
+\right),
 \end{equation}
 
 \begin{equation}
@@ -665,13 +664,13 @@ h_{L-1} &h_{L-2} &   \ldots & h_{1} & h_{0} &0 & \ldots & 0 & 0\\
 \ddots&\ddots&\ddots&\ddots&\ddots&\ddots&\ddots&\ddots & \ddots \\ 
 0&0&0&0&0&0&\ldots&h_1 & h_0
 \end{array}
-\right)  \in \mathbb{R}^{M X M}.
+\right)  \in \mathbb{R}^{M X M},
 \end{equation}
 
 y $M \geq L$. \\ \\
 Otra forma equivalente es la siguiente:
 \begin{equation}
-\vec{r} = S\vec{h}+\vec{N}
+\vec{r} = S\vec{h}+\vec{N},
 \end{equation}
 donde $\vec{r}$ y $\vec{N}$ son como antes y
 
@@ -717,11 +716,18 @@ encontrar $\vec{h} \in \mathbb{R}^{L} $ que minimice
 \end{equation}
 
 \subsection{Pruebas realizadas}
-Para efectuar las pruebas correspondientes, se considera utilizar un $L={1,10,30,50}$\footnote[1]{Resolviendo dudas con el profesor, se ha llegado a la conclusi\'on de que a valores de $L$ mayores a 10, el resultado obtenido no es satisfactorio. Por este motivo, para que la prueba sea exitosa los valores de $L$ deben ser $L={1, 2, 3, 4, 5}$.}, aplicando un ruido gaussiano $\sigma=1$. Se considera este valor por ser lo suficientemente chico para no distorsionar demasiado los datos a transmitir. Tambi\'en se prueba con diferentes longitudes de la cadena de entrenamiento $M={32,512,1024}$. \\  Para analizar c\'omo se estima en "condiciones \'optimas" (verbigracia: sin ruido, etc.), tambi\'en se prueba con $M=512$ y $\sigma=0$ (con los valores de $L$ ya mencionados)\footnote[2]{Debido a que, en la implementaci\'on, la imagen se transmit\'ia con $L=30$ (valor bastante distinto a los valores de $L$ usados para recuperar la informaci\'on), los resultados obtenidos eran dispares e inconexos. Se acord\'o con el profesor que, en vez de rehacer todo el trabajo, agregar las pruebas realizadas con este nuevo cambio, en el cual la informaci\'on se transmite con $L=5$, usando $\sigma=1$, $M=512$ y se considera a la hora de recibir los datos $L={1, 2, 3, 4, 5}$.}.\\
+Para efectuar las pruebas correspondientes, se considera utilizar un $L={1,10,30,50}$\footnote[1]{Resolviendo dudas con el profesor, se ha llegado a la conclusi\'on de que a valores de $L$ mayores a 10, el resultado obtenido no es satisfactorio. Por este motivo, para que la prueba sea exitosa los valores de $L$ deben ser $L={1, 2, 3, 4, 5}$.}, aplicando un ruido gaussiano $\sigma=1$. Se considera este valor por ser lo suficientemente peque\~no para no distorsionar demasiado los datos a transmitir. Tambi\'en se prueba con diferentes longitudes de la cadena de entrenamiento $M={32,512,1024}$. \\  Para analizar c\'omo se estima en "condiciones \'optimas" (verbigracia: sin ruido, etc.), tambi\'en se prueba con $M=512$ y $\sigma=0$ (con los valores de $L$ ya mencionados)\footnote[2]{Debido a que, en la implementaci\'on, la imagen se transmit\'ia con $L=30$ (valor bastante distinto a los valores de $L$ usados para recuperar la informaci\'on), los resultados obtenidos eran dispares e inconexos. Se acord\'o con el profesor que, en vez de rehacer todo el trabajo, agregar las pruebas realizadas con este nuevo cambio, en el cual la informaci\'on se transmite con $L=5$, usando $\sigma=1$, $M=512$ y se considera a la hora de recibir los datos $L={1, 2, 3, 4, 5}$.}.\\
 \\
 
 
 \section{Resultados}
+
+Para poder cuantificar la confiabilidad de una imagen recuperada, se ha pensado en un \'indice 
+\begin{equation}
+ i=\frac{cantidad\_bits\_iguales}{cantidad\_bits\_imagen}   .
+\nonumber
+\end{equation}
+
 
 Para $L = {1}$, $M = {32}$ y $\sigma = 1$ se observa que la imagen de Lena se recupera de manera confiable a pesar de que el canal era inestable.
 
