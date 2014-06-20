@@ -1,23 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  31 MAY 2014 00:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.6.9)  18 JUN 2014 23:49
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**informe.tex
+**informe
 (./informe.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
- icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
-iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
- lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
-ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
-ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
-.
-(/usr/local/texlive/2011/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
-Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
+Document Class: IEEEtran 2012/12/27 V1.8 by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
 \@IEEEtrantmpdimenA=\dimen102
@@ -26,9 +17,9 @@ Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
 \@IEEEtrantmpcountB=\count80
 \@IEEEtrantmptoksA=\toks14
 -- Using IEEE Computer Society mode.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 366.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 368.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -39,45 +30,45 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 \CLASSINFOnormalsizeunitybaselineskip=\dimen106
 \IEEEnormaljot=\dimen107
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <5> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <7> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <8> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <9> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <11> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <17> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <20> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 726.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 726.
 \IEEEilabelindentA=\dimen108
 \IEEEilabelindentB=\dimen109
 \IEEEilabelindent=\dimen110
@@ -98,50 +89,51 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24> not available
 \c@table=\count87
 \@IEEEeqnnumcols=\count88
 \@IEEEeqncolcnt=\count89
+\@IEEEsubeqnnumrollback=\count90
 \@IEEEtmpitemindent=\dimen116
-\c@IEEEbiography=\count90
+\c@IEEEbiography=\count91
 \@IEEEtranrubishbin=\box26
-) (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grffile.sty
-Package: grffile 2010/12/09 v1.13 Extended file name support for graphics (HO)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2012/04/05 v1.16 Extended file name support for graphics (HO)
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -150,121 +142,122 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count91
+\Gread@gobject=\count92
 ))
 Package grffile Info: Option `multidot' is set to `true'.
 Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count92
+\c@float@type=\count93
 \float@exts=\toks17
 \float@box=\box27
 \@float@everytoks=\toks18
 \@floatcapt=\box28
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count93
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count94
 \lst@gtempboxa=\box29
 \lst@token=\toks19
-\lst@length=\count94
+\lst@length=\count95
 \lst@currlwidth=\dimen119
-\lst@column=\count95
-\lst@pos=\count96
+\lst@column=\count96
+\lst@pos=\count97
 \lst@lostspace=\dimen120
 \lst@width=\dimen121
-\lst@newlines=\count97
-\lst@lineno=\count98
+\lst@newlines=\count98
+\lst@lineno=\count99
 \lst@maxwidth=\dimen122
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count99
-\lst@skipnumbers=\count100
+\c@lstnumber=\count100
+\lst@skipnumbers=\count101
 \lst@framebox=\box30
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/bigfoot/perpage.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/bigfoot/perpage.sty
 Package: perpage 2006/07/15 1.12 Reset/sort counters per page
-\c@abspage=\count101
+\c@abspage=\count102
 )
-\c@pp@a@figure=\count102
-\c@pp@a@table=\count103
+\c@pp@a@figure=\count103
+\c@pp@a@table=\count104
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks20
 \ex@=\dimen123
 ))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen124
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count104
-LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count105
-\leftroot@=\count106
-LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count107
-\DOTSCASE@=\count108
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+\inf@bad=\count105
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count106
+\leftroot@=\count107
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count108
+\DOTSCASE@=\count109
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box31
 \strutbox@=\box32
 \big@size=\dimen125
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count109
-\c@MaxMatrixCols=\count110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count110
+\c@MaxMatrixCols=\count111
 \dotsspace@=\muskip10
-\c@parentequation=\count111
-\dspbrk@lvl=\count112
+\c@parentequation=\count112
+\dspbrk@lvl=\count113
 \tag@help=\toks21
-\row@=\count113
-\column@=\count114
-\maxfields@=\count115
+\row@=\count114
+\column@=\count115
+\maxfields@=\count116
 \andhelp@=\toks22
 \eqnshift@=\dimen126
 \alignsep@=\dimen127
@@ -276,21 +269,16 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip45
 \multlinetaggap=\skip46
 \mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/morefloats/morefloats.sty
-Package: morefloats 2011/02/01 v1.0d Increase limit of unprocessed floats (HMM;
- DH)
-\c@maxfloats=\count116
-
-
-Package maxfloats Warning: 
-(maxfloats)                Maximum number of possible floats asked for: 36.
-(maxfloats)                LaTeX might run out of dimensions or memory
-(maxfloats)                before this (in which case it will notify you).
-(maxfloats)                 on input line 127.
-
+(/usr/local/texlive/2013/texmf-dist/tex/latex/morefloats/morefloats.sty
+Package: morefloats 2012/01/28 v1.0f Raise limit of unprocessed floats (HMM; DH
+)
+Package morefloats Info: Maximum number of possible floats asked for: 36.
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+(morefloats)              on input line 171.
 \bx@S=\insert233
 \bx@T=\insert232
 \bx@U=\insert231
@@ -309,7 +297,8 @@ Package maxfloats Warning:
 \bx@AH=\insert218
 \bx@AI=\insert217
 \bx@AJ=\insert216
-) (./informe.aux
+)
+(./informe.aux
 
 LaTeX Warning: Label `fig:refuerzos2' multiply defined.
 
@@ -352,7 +341,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 434.
 LaTeX Font Info:    ... okay on input line 434.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 434.
 LaTeX Font Info:    ... okay on input line 434.
- (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count117
 \scratchdimen=\dimen132
@@ -365,30 +354,32 @@ LaTeX Font Info:    ... okay on input line 434.
 \MPnumerator=\count121
 \makeMPintoPDFobject=\count122
 \everyMPtoPDFconversion=\toks26
-) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 434.
 \c@lstlisting=\count123
+
+** ATTENTION: \IEEEcompsoctitleabstractindextext is deprecated (line 534). Use 
+\IEEEtitleabstractindextext instead.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 559.
 
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1phv.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11> not available
@@ -398,19 +389,21 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 559.
 LaTeX Font Info:    Try loading font information for U+msa on input line 559.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 559.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+pzd on input line 559.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/upzd.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
+** ATTENTION: \IEEEdisplaynotcompsoctitleabstractindextext is deprecated (line 
+567). Use \IEEEdisplaynontitleabstractindextext instead.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 581.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <12> not available
@@ -449,7 +442,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 627--631
  []
 
 
-Overfull \hbox (46.83585pt too wide) detected at line 669
+Overfull \hbox (4.35538pt too wide) detected at line 669
 \OML/cmm/m/it/10 H \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[]\OM
 L/cmm/m/it/10 :
  []
@@ -460,9 +453,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 671--673
  []
 
 
-Underfull \vbox (badness 4024) has occurred while \output is active []
+Underfull \vbox (badness 4242) has occurred while \output is active []
 
- [1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
@@ -604,29 +597,29 @@ no5/512/3/imgTrans.jpg> <../Linterno5/512/3/imgRec.jpg> <../Linterno5/512/5/img
 Trans.jpg> <../Linterno5/512/5/imgRec.jpg>] [4
 
 ]
-(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstlang1.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(../ej4Step1.m
+(./../ej4Step1.m
 LaTeX Font Info:    Try loading font information for OML+ppl on input line 3.
- (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omlppl.fd
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlppl.fd
 File: omlppl.fd 
 )
 LaTeX Font Info:    Font shape `OML/ppl/m/it' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 10.
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omsppl.fd
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
-) (../ej4Step2.m
+)
+(./../ej4Step2.m
 LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
-[5
+ [5
 
-]) (../ourQR.m
+]) (./../ourQR.m
 LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 6.
 ) [6]
@@ -665,32 +658,32 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5258 strings out of 493633
- 76045 string characters out of 3143378
- 196434 words of memory out of 3000000
- 8448 multiletter control sequences out of 15000+200000
- 50198 words of font info for 116 fonts, out of 3000000 for 9000
- 836 hyphenation exceptions out of 8191
- 36i,9n,43p,1300b,1719s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
-ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
-/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
-011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2011
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2011/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2011/texmf
--dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2011/t
-exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2011/texmf-di
-st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2011/texmf-dist/font
-s/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type
-1/urw/palatino/uplb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/p
-alatino/uplr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/palatino
-/uplri8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/zapfding/uzdr.
+ 5312 strings out of 493315
+ 77025 string characters out of 6137905
+ 201148 words of memory out of 5000000
+ 8653 multiletter control sequences out of 15000+600000
+ 50198 words of font info for 116 fonts, out of 8000000 for 9000
+ 962 hyphenation exceptions out of 8191
+ 36i,9n,43p,1296b,1719s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/p
+alatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatino
+/uplri8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/zapfding/uzdr.
 pfb>
-Output written on informe.pdf (7 pages, 643011 bytes).
+Output written on ./informe.pdf (7 pages, 643045 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream
