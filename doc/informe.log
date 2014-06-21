@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  21 JUN 2014 11:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  21 JUN 2014 11:56
 entering extended mode
 **C:/Users/Teresa/Documents/ITBA/Cuarto*Año/Métodos*Numéricos*Avanzados/TP1N
 uevo/mna-tpe1-ej4/doc/informe.tex
@@ -310,6 +310,9 @@ Package morefloats Info: Maximum number of possible floats asked for: 36.
 ("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
 uevo\mna-tpe1-ej4\doc\informe.aux"
 
+LaTeX Warning: Label `table:nonlin' multiply defined.
+
+
 LaTeX Warning: Label `Libro' multiply defined.
 
 
@@ -475,120 +478,114 @@ Underfull \hbox (badness 10000) in paragraph at lines 719--721
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 792--793
 
- []
+Package perpage Warning: \stepcounter probably at start of vertical list:
+You might need to use \leavevmode before it to avoid vertical shifts on input l
+ine 733.
 
-<../Linterno5/512/1/imgTrans.jpg, id=24, 385.44pt x 385.44pt>
-File: ../Linterno5/512/1/imgTrans.jpg Graphic file (type jpg)
 
-<use ../Linterno5/512/1/imgTrans.jpg>
-Package pdftex.def Info: ../Linterno5/512/1/imgTrans.jpg used on input line 801
-.
-(pdftex.def)             Requested size: 96.35976pt x 96.35976pt.
+Package perpage Warning: \stepcounter probably at start of vertical list:
+You might need to use \leavevmode before it to avoid vertical shifts on input l
+ine 751.
 
-<../Linterno5/512/1/imgRec.jpg, id=25, 385.44pt x 385.44pt>
-File: ../Linterno5/512/1/imgRec.jpg Graphic file (type jpg)
+<../512/1/imgTrans.jpg, id=19, 500.03027pt x 500.03027pt>
+File: ../512/1/imgTrans.jpg Graphic file (type jpg)
 
-<use ../Linterno5/512/1/imgRec.jpg>
-Package pdftex.def Info: ../Linterno5/512/1/imgRec.jpg used on input line 806.
-(pdftex.def)             Requested size: 96.35976pt x 96.35976pt.
+<use ../512/1/imgTrans.jpg>
+Package pdftex.def Info: ../512/1/imgTrans.jpg used on input line 776.
+(pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 798--809
+<../512/1/imgRec.jpg, id=20, 500.03027pt x 500.03027pt>
+File: ../512/1/imgRec.jpg Graphic file (type jpg)
+
+<use ../512/1/imgRec.jpg>
+Package pdftex.def Info: ../512/1/imgRec.jpg used on input line 781.
+(pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 773--784
  $[]$ 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 798--809
+Overfull \hbox (6.0pt too wide) in paragraph at lines 773--784
  $[]$ 
  []
 
-<../Linterno5/512/3/imgTrans.jpg, id=26, 385.44pt x 385.44pt>
-File: ../Linterno5/512/3/imgTrans.jpg Graphic file (type jpg)
+<../512/3/imgTrans.jpg, id=21, 500.03027pt x 500.03027pt>
+File: ../512/3/imgTrans.jpg Graphic file (type jpg)
 
-<use ../Linterno5/512/3/imgTrans.jpg>
-Package pdftex.def Info: ../Linterno5/512/3/imgTrans.jpg used on input line 822
-.
-(pdftex.def)             Requested size: 96.35976pt x 96.35976pt.
+<use ../512/3/imgTrans.jpg>
+Package pdftex.def Info: ../512/3/imgTrans.jpg used on input line 797.
+(pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
-<../Linterno5/512/3/imgRec.jpg, id=27, 385.44pt x 385.44pt>
-File: ../Linterno5/512/3/imgRec.jpg Graphic file (type jpg)
+<../512/3/imgRec.jpg, id=22, 500.03027pt x 500.03027pt>
+File: ../512/3/imgRec.jpg Graphic file (type jpg)
 
-<use ../Linterno5/512/3/imgRec.jpg>
-Package pdftex.def Info: ../Linterno5/512/3/imgRec.jpg used on input line 828.
-(pdftex.def)             Requested size: 96.35976pt x 96.35976pt.
+<use ../512/3/imgRec.jpg>
+Package pdftex.def Info: ../512/3/imgRec.jpg used on input line 803.
+(pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 819--831
- $[]$ 
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 819--831
- $[]$ 
- []
-
-<../Linterno5/512/5/imgTrans.jpg, id=28, 385.44pt x 385.44pt>
-File: ../Linterno5/512/5/imgTrans.jpg Graphic file (type jpg)
-
-<use ../Linterno5/512/5/imgTrans.jpg>
-Package pdftex.def Info: ../Linterno5/512/5/imgTrans.jpg used on input line 843
-.
-(pdftex.def)             Requested size: 96.35976pt x 96.35976pt.
-
-<../Linterno5/512/5/imgRec.jpg, id=29, 385.44pt x 385.44pt>
-File: ../Linterno5/512/5/imgRec.jpg Graphic file (type jpg)
-
-<use ../Linterno5/512/5/imgRec.jpg>
-Package pdftex.def Info: ../Linterno5/512/5/imgRec.jpg used on input line 849.
-(pdftex.def)             Requested size: 96.35976pt x 96.35976pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 840--852
+Overfull \hbox (6.0pt too wide) in paragraph at lines 794--806
  $[]$ 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 840--852
+Overfull \hbox (6.0pt too wide) in paragraph at lines 794--806
+ $[]$ 
+ []
+
+<../512/5/imgTrans.jpg, id=23, 500.03027pt x 500.03027pt>
+File: ../512/5/imgTrans.jpg Graphic file (type jpg)
+
+<use ../512/5/imgTrans.jpg>
+Package pdftex.def Info: ../512/5/imgTrans.jpg used on input line 818.
+(pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
+
+<../512/5/imgRec.jpg, id=24, 500.03027pt x 500.03027pt>
+File: ../512/5/imgRec.jpg Graphic file (type jpg)
+
+<use ../512/5/imgRec.jpg>
+Package pdftex.def Info: ../512/5/imgRec.jpg used on input line 824.
+(pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 815--827
  $[]$ 
  []
 
 
-Underfull \hbox (badness 5607) in paragraph at lines 927--928
-\OT1/ppl/m/n/10 prop-uestos, se ob-ser-van re-sul-ta-dos muy vari-a-dos
+Overfull \hbox (6.0pt too wide) in paragraph at lines 815--827
+ $[]$ 
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 927--928
-\OT1/ppl/m/n/10 de-pen-di-endo del ruido que se le aplica al valor
+Underfull \hbox (badness 3536) in paragraph at lines 832--833
+[]\OT1/ppl/m/n/10 Luego de cor-rer el pro-grama con los dis-tin-tos
  []
 
 
-Underfull \hbox (badness 7504) in paragraph at lines 927--928
-\OT1/ppl/m/n/10 trans-mi-tido. Se ob-ser-van situa-ciones en las que
+Underfull \hbox (badness 10000) in paragraph at lines 832--833
+\OT1/ppl/m/n/10 val-ores prop-uestos, se ob-ser-van re-sul-ta-dos muy
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 927--928
+Underfull \hbox (badness 2418) in paragraph at lines 832--833
 \OT1/ppl/m/n/10 re-al-izadas, se puede afir-mar que tomando val-ores
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--928
+Underfull \hbox (badness 10000) in paragraph at lines 832--833
 
  []
 
+[2 <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP
+1Nuevo/mna-tpe1-ej4/512/1/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto 
+Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/512/1/imgRec.jpg>]
 [3 <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP
-1Nuevo/mna-tpe1-ej4/Linterno5/512/1/imgTrans.jpg> <C:/Users/Teresa/Documents/IT
-BA/Cuarto Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/Linterno5/51
-2/1/imgRec.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos
- Avanzados/TP1Nuevo/mna-tpe1-ej4/Linterno5/512/3/imgTrans.jpg> <C:/Users/Teresa
-/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4
-/Linterno5/512/3/imgRec.jpg>] [4
-
- <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP1N
-uevo/mna-tpe1-ej4/Linterno5/512/5/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA
-/Cuarto Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/Linterno5/512/
-5/imgRec.jpg>]
+1Nuevo/mna-tpe1-ej4/512/3/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto 
+Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/512/3/imgRec.jpg> <C:/
+Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP1Nuevo/
+mna-tpe1-ej4/512/5/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto Año/M�
+�todos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/512/5/imgRec.jpg>]
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
@@ -613,44 +610,44 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 uevo\mna-tpe1-ej4\ej4Step2.m"
 LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
- [5
+ [4
 
 ])
 ("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
 uevo\mna-tpe1-ej4\ourQR.m"
 LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 6.
-) [6]
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+) [5]
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
 
  []
 
-[7]
+[6]
 ("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
 uevo\mna-tpe1-ej4\doc\informe.aux")
 
@@ -658,10 +655,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5192 strings out of 493921
- 75220 string characters out of 3147279
- 195020 words of memory out of 3000000
- 8387 multiletter control sequences out of 15000+200000
+ 5198 strings out of 493921
+ 75046 string characters out of 3147279
+ 195096 words of memory out of 3000000
+ 8393 multiletter control sequences out of 15000+200000
  50198 words of font info for 116 fonts, out of 3000000 for 9000
  846 hyphenation exceptions out of 8191
  36i,9n,43p,1403b,1719s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -681,9 +678,9 @@ vetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on informe.pdf (7 pages, 659744 bytes).
+Output written on informe.pdf (6 pages, 985364 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
