@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  20 JUN 2014 18:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  21 JUN 2014 11:49
 entering extended mode
-**C:/Users/Teresa/Documents/ITBA/Cuarto*Año/Métodos*Numéricos*Avanzados/TP1/
-mna-tpe1-ej4/doc/informe.tex
+**C:/Users/Teresa/Documents/ITBA/Cuarto*Año/Métodos*Numéricos*Avanzados/TP1N
+uevo/mna-tpe1-ej4/doc/informe.tex
 
-("C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP1/
-mna-tpe1-ej4/doc/informe.tex"
+("C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP1N
+uevo/mna-tpe1-ej4/doc/informe.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -307,8 +307,8 @@ Package morefloats Info: Maximum number of possible floats asked for: 36.
 \bx@AI=\insert217
 \bx@AJ=\insert216
 )
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
-mna-tpe1-ej4\doc\informe.aux"
+("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
+uevo\mna-tpe1-ej4\doc\informe.aux"
 
 LaTeX Warning: Label `Libro' multiply defined.
 
@@ -578,21 +578,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 927--928
  []
 
 [3 <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP
-1/mna-tpe1-ej4/Linterno5/512/1/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/Cu
-arto Año/Métodos Numéricos Avanzados/TP1/mna-tpe1-ej4/Linterno5/512/1/imgRec
-.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados
-/TP1/mna-tpe1-ej4/Linterno5/512/3/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA
-/Cuarto Año/Métodos Numéricos Avanzados/TP1/mna-tpe1-ej4/Linterno5/512/3/img
-Rec.jpg>] [4
+1Nuevo/mna-tpe1-ej4/Linterno5/512/1/imgTrans.jpg> <C:/Users/Teresa/Documents/IT
+BA/Cuarto Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/Linterno5/51
+2/1/imgRec.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos
+ Avanzados/TP1Nuevo/mna-tpe1-ej4/Linterno5/512/3/imgTrans.jpg> <C:/Users/Teresa
+/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4
+/Linterno5/512/3/imgRec.jpg>] [4
 
- <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP1/
-mna-tpe1-ej4/Linterno5/512/5/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/Cuar
-to Año/Métodos Numéricos Avanzados/TP1/mna-tpe1-ej4/Linterno5/512/5/imgRec.j
-pg>] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+ <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP1N
+uevo/mna-tpe1-ej4/Linterno5/512/5/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA
+/Cuarto Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/Linterno5/512/
+5/imgRec.jpg>]
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
-mna-tpe1-ej4\ej4Step1.m"
+("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
+uevo\mna-tpe1-ej4\ej4Step1.m"
 LaTeX Font Info:    Try loading font information for OML+ppl on input line 3.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlppl.fd"
@@ -608,15 +609,15 @@ File: omsppl.fd
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
 )
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
-mna-tpe1-ej4\ej4Step2.m"
+("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
+uevo\mna-tpe1-ej4\ej4Step2.m"
 LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
  [5
 
 ])
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
-mna-tpe1-ej4\ourQR.m"
+("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
+uevo\mna-tpe1-ej4\ourQR.m"
 LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 6.
 ) [6]
@@ -650,20 +651,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
  []
 
 [7]
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1\
-mna-tpe1-ej4\doc\informe.aux")
+("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
+uevo\mna-tpe1-ej4\doc\informe.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  5192 strings out of 493921
- 75150 string characters out of 3147279
+ 75220 string characters out of 3147279
  195020 words of memory out of 3000000
  8387 multiletter control sequences out of 15000+200000
  50198 words of font info for 116 fonts, out of 3000000 for 9000
  846 hyphenation exceptions out of 8191
- 36i,9n,43p,1398b,1719s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,9n,43p,1403b,1719s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
