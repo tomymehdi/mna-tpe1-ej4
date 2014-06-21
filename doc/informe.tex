@@ -720,76 +720,51 @@ Para efectuar las pruebas correspondientes, se considera utilizar un $L={1,10,30
 \\
 
 
-\section{Resultados}
+\section{Resultados y Conclusiones}
 
-Para poder cuantificar la confiabilidad de una imagen recuperada, se ha pensado en un \'indice 
+Para poder cuantificar la confiabilidad de una imagen recuperada, se ha pensado en un \'indice $i$ que consiste en 
 \begin{equation}
  i=\frac{cantidad\_bits\_iguales}{cantidad\_bits\_imagen}   .
 \nonumber
 \end{equation}
 
 
-\begin{table}[ht] 
+\begin{table}[ht]
+\caption{Relaci\'on entre imagen transmitida e imagen recibida} 
 \centering  
 \begin{tabular}{c | c | c | c | c}  
 \hline\hline
 L   M & 32 & 64 & 256 & 512 \\ \hline 
-1 & 0.0020866 & 0.0015945 & 0.0031052 & 0.012386 \\  
-2 & 0.00079727 & 0.029865 & 0.023960  & 0 \\ 
-3 & 0 & 0.0011215 & 0.00055695 & 0\\ 
-4 & 0.000030518 & 0.00029755 & 0.059250 & 0 \\ 
-5 & 0.00022125 & 0.10743 & 0.00088501 & 0.0011826  \\ [1ex]  
+1 & 0.0019798 & 0.082809 & 0 & 0.0048752 \\  
+2 & 0.22441 & 0 & 0.0010986  & 0.029369 \\ 
+3 & 0 &  0.0024719 & 0.12458 & 0.0026894\\ 
+4 & 0.00020218& 0.000045776 & 0.0062218 & 0.000030518 \\ 
+5 & 0.088345 &  0.00068665 & 0.00061417 & 0.18251  \\ [1ex]  
 \hline 
 \end{tabular} 
 \label{table:nonlin}  
 \end{table} 
 
 
-Para $L = {1}$, $M = {32}$ y $\sigma = 1$ se observa que la imagen de Lena se recupera de manera confiable a pesar de que el canal era inestable.
 
-Para $L = {2}$, $M = {32}$ y $\sigma = 1$ la imagen se recupera en forma err\'onea dadas dos im\'agenes con distinto ruido.
+\begin{table}[ht] 
+\caption{Relaci\'on entre imagen recibida e imagen original}
+\centering  
+\begin{tabular}{c | c | c | c | c}  
+\hline\hline
+L   M & 32 & 64 & 256 & 512 \\ \hline 
+1 & 0.0020866 & 0.0015945 & 0.0031052 & 0.0053940 \\  
+2 & 0.00079727 & 0.029865 & 0.023960  & 0.000061035 \\ 
+3 & 0 & 0.0011215 & 0.00055695 & 0.00011826\\ 
+4 & 0.000030518 & 0.00029755 & 0.059250 & 0.000057220 \\ 
+5 & 0.00022125 & 0.10743 & 0.00088501 & 0.0099983  \\ [1ex]  
+\hline 
+\end{tabular} 
+\label{table:nonlin}  
+\end{table} 
 
-Para $L = {3}$, $M = {32}$ y $\sigma = 1$ la imagen se recupera de manera bastante confiable. Dadas dos im\'agenes con distinto ruido, se obtienen im\'agenes recuperadas similares.
 
-Para $L = {4}$, $M = {32}$ y $\sigma = 1$ las im\'agenes recuperadas son completamente distintas y distorsionadas, habiendo transmitido dos im\'agenes con ruido similar.
 
-Para $L = {5}$, $M = {32}$ y $\sigma = 1$ y una imagen transmitida con poco ruido, \'esta se recupera de manera confiable. Para una imagen con m\'as ruido, se recupera una imagen err\'onea.
-
-Para $L = {1}$, $M = {64}$ y $\sigma = 1$ no se recupera la imagen perfecta, pero es bastante confiable con respecto a la imagen original que conten\'ia mucho ruido.
-
-Para $L = {2}$, $M = {64}$ y $\sigma = 1$ se nota una variaci\'on importante para dos im\'agenes con poco ruido. Se recupera una imagen confiable y una muy distorsionada.
-
-Para $L = {3}$, $M = {64}$ y $\sigma = 1$ se da una situaci\'on similar al caso anterior.
-
-Para $L = {4}$, $M = {64}$ y $\sigma = 1$ y tres im\'agenes de Lena con distinto ruido, se recuperan dos de manera confiable y una distorsionada.
-
-Para $L = {5}$, $M = {64}$ y $\sigma = 1$ y tres im\'agenes de Lena con distinto ruido, se recupera una de manera confiable y dos distorsionadas.
-
-Para $L = {1}$, $M = {256}$ y $\sigma = 1$ se observan resultados muy similares al caso de igual $L$ y $M = {64}$.
-
-Para $L = {2}$, $M = {256}$ y $\sigma = 1$ y tres im\'agenes con distinto ruido, se obtienen imagenes confiables.
-
-Para $L = {3}$, $M = {256}$ y $\sigma = 1$ y tres im\'agenes con distinto ruido, ninguna se recupera de forma correcta.
-
-Para $L = {4}$, $M = {256}$ y $\sigma = 1$ y tres im\'agenes con distinto ruido, se obtienen dos im\'agenes distorsionadas y una confiable.
-
-Para $L = {5}$, $M = {256}$ y $\sigma = 1$ se recupera una imagen confiable a partir de una cuyo ruido es mayor a otras dos transmitidas y sus correspondientes no se recuperan con \'exito.
-
-Para $L = {1}$, $M = {512}$ y $\sigma = 1$ se recuperan dos im\'agenes defectuosas pero claras, dadas dos fotograf\'ias con gran nivel de ruido.
-
-Para $L = {2}$, $M = {512}$ y $\sigma = 1$ se transmiten tres im\'agenes, dos con nivel de ruido similar y una con mayor cantidad. Para la imagen con mayor ruido, se obtiene una buena recuperaci\'on, aunque no perfecta y lo mismo sucede con una de las imagenes con menor cantidad de ruido. Con la otra, se obtiene una imagen defectuosa, aunque el nivel de ruido sea similar a la imagen que fue recuperada con \'exito.
-
-Para $L = {3}$, $M = {512}$ y $\sigma = 1$ y tres im\'agenes con distinto ruido aunque similar en nivel, dos se recuperan defectuosas y una confiable.
-
-Para $L = {4}$ y $L = {5}$ con $M = {512}$ y $\sigma = 1$ suceden situaciones similares al caso anterior.
-
-Luego de haber descubierto el error mencionado en la secci\'on anterior, se procede a realizar las pruebas pertinentes.
-
-Para $L = {1}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recupera de manera confiable (aunque con tonalidades m\'as blanquecinas que la original) (ver Fig.1). 
-
-Para $L = {3}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recupera de una manera mucho m\'as confiable que en el caso anterior (ver Fig.2).
-
-Para $L = {5}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recupera completamente distorsionada.(ver Fig.3)\\
 
 \begin{figure}
 \begin{center}
@@ -798,12 +773,12 @@ Para $L = {5}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recup
 \begin{minipage}{.5\textwidth}
   \centering
 
-  \includegraphics[scale=0.25]{../Linterno5/512/1/imgTrans.jpg}
+  \includegraphics[scale=0.25]{../512/1/imgTrans.jpg}
 \end{minipage}
 \vspace{0cm}
 \begin{minipage}{.5\textwidth}
   \centering
-  \includegraphics[scale=0.25]{../Linterno5/512/1/imgRec.jpg}
+  \includegraphics[scale=0.25]{../512/1/imgRec.jpg}
   \label{fig:sub2}
 \end{minipage}
 \caption{Imagen transmitida (arriba) y recibida (abajo) usando $L=1 , M=512, \sigma=1$.}
@@ -819,13 +794,13 @@ Para $L = {5}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recup
 \begin{minipage}{.5\textwidth}
   \centering
 
-  \includegraphics[scale=0.25]{../Linterno5/512/3/imgTrans.jpg}
+  \includegraphics[scale=0.25]{../512/3/imgTrans.jpg}
   \label{fig:sub1}
 \end{minipage}
 \vspace{0cm}
 \begin{minipage}{.5\textwidth}
   \centering
-  \includegraphics[scale=0.25]{../Linterno5/512/3/imgRec.jpg}
+  \includegraphics[scale=0.25]{../512/3/imgRec.jpg}
   \label{fig:sub2}
 \end{minipage}
 \caption{Imagen transmitida (arriba) y recibida (abajo) usando $L=3 , M=512, \sigma=1$.}
@@ -840,19 +815,23 @@ Para $L = {5}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recup
 \begin{minipage}{.5\textwidth}
   \centering
 
-  \includegraphics[scale=0.25]{../Linterno5/512/5/imgTrans.jpg}
+  \includegraphics[scale=0.25]{../512/5/imgTrans.jpg}
   \label{fig:sub1}
 \end{minipage}
 \vspace{0cm}
 \begin{minipage}{.5\textwidth}
   \centering
-  \includegraphics[scale=0.25]{../Linterno5/512/5/imgRec.jpg}
+  \includegraphics[scale=0.25]{../512/5/imgRec.jpg}
   \label{fig:sub2}
 \end{minipage}
 \caption{Imagen transmitida (arriba) y recibida (abajo) usando $L=5 , M=512, \sigma=1$.}
 \label{fig:test}
 \end{center}
 \end{figure}
+
+Luego de correr el programa con los distintos valores propuestos, se observan resultados muy variados dependiendo del ruido que se le aplica al valor transmitido. Se observan situaciones en las que dadas dos im\'agenes con valor de ruido similar, se recuperan im\'agenes completamente distintas. Antes de la correcci\'on efectuada, era imposible afirmar que este m\'etodo dependiera de que el ruido sea menor para obtener una recuperaci\'on exitosa, ya que se observaban situaciones en las que se obtiene una imagen muy distorsionada, habiendo transmitido una imagen con poco ruido. Despu\'es, con el \'ultimo set de pruebas realizadas, se puede afirmar que tomando valores muy altos de $L$, la imagen no se recupera bien, pero que, para el resto de los valores de $L$, se recupera de manera aceptable. Esto puede ocurrir debido a que, a\'un cuando el $L$ estimado sea igual al real, los errores de precisi\'on provocan im\'agenes distorsionadas (como ocurre con $L=5$).  Sin embargo, se puede concluir que este m\'etodo puede usarse para la estimaci\'on de un canal de comunicaciones, para $L$ chicos. \\ 
+
+
 
 
 %\begin{figure}[H]
@@ -922,9 +901,7 @@ Para $L = {5}$, $M = {512}$ y $\sigma = 1$ y una imagen de Lena, \'esta se recup
 
 
 
-\section{Conclusiones}
 
-Luego de correr el programa con los distintos valores propuestos, se observan resultados muy variados dependiendo del ruido que se le aplica al valor transmitido. Se observan situaciones en las que dadas dos im\'agenes con valor de ruido similar, se recuperan im\'agenes completamente distintas. Antes de la correcci\'on efectuada, era imposible afirmar que este m\'etodo dependiera de que el ruido sea menor para obtener una recuperaci\'on exitosa, ya que se observaban situaciones en las que se obtiene una imagen muy distorsionada, habiendo transmitido una imagen con poco ruido. Despu\'es, con el \'ultimo set de pruebas realizadas, se puede afirmar que tomando valores muy altos de $L$, la imagen no se recupera bien, pero que, para el resto de los valores de $L$, se recupera de manera aceptable. Esto puede ocurrir debido a que, a\'un cuando el $L$ estimado sea igual al real, los errores de precisi\'on provocan im\'agenes distorsionadas (como ocurre con $L=5$).  Sin embargo, se puede concluir que este m\'etodo puede usarse para la estimaci\'on de un canal de comunicaciones, para $L$ chicos. \\
 
 % if have a single appendix:
 %\appendix[Proof of the Zonklar Equations]
