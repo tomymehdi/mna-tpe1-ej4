@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  21 JUN 2014 11:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  21 JUN 2014 13:11
 entering extended mode
 **C:/Users/Teresa/Documents/ITBA/Cuarto*Año/Métodos*Numéricos*Avanzados/TP1N
 uevo/mna-tpe1-ej4/doc/informe.tex
@@ -307,17 +307,42 @@ Package morefloats Info: Maximum number of possible floats asked for: 36.
 \bx@AI=\insert217
 \bx@AJ=\insert216
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen132
+\captionmargin@=\dimen133
+\captionwidth=\dimen134
+\caption@tempdima=\dimen135
+\caption@indent=\dimen136
+\caption@parindent=\dimen137
+\caption@hangindent=\dimen138
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \normalsize \bgroup \par \centering \@IEEEtabletopskipstrut {\normalf
+ont \sffamily \normalsize #1}\\{\normalfont \sffamily \normalsize #2}\par \addv
+space {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurec
+aptionsepspace \setbox \@tempboxa \hbox {\normalfont \sffamily \normalsize {#1.
+}\nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\norm
+alfont \sffamily \normalsize {#1.}\nobreakspace }\parbox [t]{\hsize }{\normalfo
+nt \sffamily \normalsize \noindent \unhbox \@tempboxa #2}\else \hbox to\hsize {
+\normalfont \sffamily \normalsize \box \@tempboxa \hfil }\fi \fi .
+\c@ContinuedFloat=\count117
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+)
 ("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
 uevo\mna-tpe1-ej4\doc\informe.aux"
-
-LaTeX Warning: Label `table:nonlin' multiply defined.
-
-
-LaTeX Warning: Label `Libro' multiply defined.
-
-
-LaTeX Warning: Label `Libro' multiply defined.
-
 
 LaTeX Warning: Label `fig:refuerzos2' multiply defined.
 
@@ -326,6 +351,12 @@ LaTeX Warning: Label `fig:sub2' multiply defined.
 
 
 LaTeX Warning: Label `fig:test' multiply defined.
+
+
+LaTeX Warning: Label `Libro' multiply defined.
+
+
+LaTeX Warning: Label `Libro' multiply defined.
 
 
 LaTeX Warning: Label `fig:refuerzos2' multiply defined.
@@ -339,110 +370,115 @@ LaTeX Warning: Label `fig:sub2' multiply defined.
 
 LaTeX Warning: Label `fig:test' multiply defined.
 
+
+LaTeX Warning: Label `table:nonlin' multiply defined.
+
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 434.
-LaTeX Font Info:    ... okay on input line 434.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 434.
-LaTeX Font Info:    ... okay on input line 434.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 434.
-LaTeX Font Info:    ... okay on input line 434.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 434.
-LaTeX Font Info:    ... okay on input line 434.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 434.
-LaTeX Font Info:    ... okay on input line 434.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 434.
-LaTeX Font Info:    ... okay on input line 434.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 436.
+LaTeX Font Info:    ... okay on input line 436.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 436.
+LaTeX Font Info:    ... okay on input line 436.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 436.
+LaTeX Font Info:    ... okay on input line 436.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 436.
+LaTeX Font Info:    ... okay on input line 436.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 436.
+LaTeX Font Info:    ... okay on input line 436.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 436.
+LaTeX Font Info:    ... okay on input line 436.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
-\scratchdimen=\dimen132
+\scratchcounter=\count118
+\scratchdimen=\dimen139
 \scratchbox=\box33
-\nofMPsegments=\count118
-\nofMParguments=\count119
+\nofMPsegments=\count119
+\nofMParguments=\count120
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count120
-\MPscratchDim=\dimen133
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen140
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
 \everyMPtoPDFconversion=\toks26
 )
-Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 434.
-\c@lstlisting=\count123
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 436.
+\c@lstlisting=\count124
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
-** ATTENTION: \IEEEcompsoctitleabstractindextext is deprecated (line 534). Use 
+** ATTENTION: \IEEEcompsoctitleabstractindextext is deprecated (line 536). Use 
 \IEEEtitleabstractindextext instead.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 559.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 561.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 559.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 561.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 559.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 559.
-LaTeX Font Info:    Try loading font information for U+msa on input line 559.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 561.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 561.
+LaTeX Font Info:    Try loading font information for U+msa on input line 561.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 559.
+LaTeX Font Info:    Try loading font information for U+msb on input line 561.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+pzd on input line 559.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 561.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 ** ATTENTION: \IEEEdisplaynotcompsoctitleabstractindextext is deprecated (line 
-567). Use \IEEEdisplaynontitleabstractindextext instead.
+569). Use \IEEEdisplaynontitleabstractindextext instead.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 581.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 583.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 581.
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 583.
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--623
+Underfull \hbox (badness 10000) in paragraph at lines 620--625
 []\OT1/ppl/m/sc/10 n \OT1/ppl/m/n/10 sis-tema de co-mu-ni-ca-ciones con-sta, co
 mo
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 618--623
+Underfull \hbox (badness 1565) in paragraph at lines 620--625
 \OT1/ppl/m/n/10 el canal, uti-lizando el m[]etodo QR para cuadra-dos
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 618--623
+Underfull \hbox (badness 2846) in paragraph at lines 620--625
 \OT1/ppl/m/n/10 En la sigu-iente secci[]on, Metodolog[]a Uti-lizada, se
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--623
+Underfull \hbox (badness 10000) in paragraph at lines 620--625
 
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 626.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 628.
 
-Underfull \hbox (badness 2772) in paragraph at lines 627--631
+Underfull \hbox (badness 2772) in paragraph at lines 629--633
 \OT1/ppl/m/n/10 son afec-ta-dos por ruido blanco Gaus-siano adi-tivo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--631
+Underfull \hbox (badness 10000) in paragraph at lines 629--633
 
  []
 
 
-Overfull \hbox (4.35538pt too wide) detected at line 668
+Overfull \hbox (4.35538pt too wide) detected at line 670
 \OML/cmm/m/it/10 H \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[]\OM
 L/cmm/m/it/10 ;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--672
+Underfull \hbox (badness 10000) in paragraph at lines 672--674
 
  []
 
@@ -453,61 +489,51 @@ Underfull \vbox (badness 4242) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 704--706
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 719--721
+Underfull \hbox (badness 2057) in paragraph at lines 721--723
 \OT1/ppl/m/n/10 uti-lizar un $\OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = []$[]\OT1/pp
 l/m/n/10 , apli-cando un ruido
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 719--721
+Underfull \hbox (badness 10000) in paragraph at lines 721--723
 \OT1/ppl/m/n/10 lo su-fi-cien-te-mente peque[]no para no dis-tor-sionar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 719--721
+Underfull \hbox (badness 10000) in paragraph at lines 721--723
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 719--721
+Underfull \hbox (badness 10000) in paragraph at lines 721--723
 
  []
-
-
-Package perpage Warning: \stepcounter probably at start of vertical list:
-You might need to use \leavevmode before it to avoid vertical shifts on input l
-ine 733.
-
-
-Package perpage Warning: \stepcounter probably at start of vertical list:
-You might need to use \leavevmode before it to avoid vertical shifts on input l
-ine 751.
 
 <../512/1/imgTrans.jpg, id=19, 500.03027pt x 500.03027pt>
 File: ../512/1/imgTrans.jpg Graphic file (type jpg)
 
 <use ../512/1/imgTrans.jpg>
-Package pdftex.def Info: ../512/1/imgTrans.jpg used on input line 776.
+Package pdftex.def Info: ../512/1/imgTrans.jpg used on input line 733.
 (pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
 <../512/1/imgRec.jpg, id=20, 500.03027pt x 500.03027pt>
 File: ../512/1/imgRec.jpg Graphic file (type jpg)
 
 <use ../512/1/imgRec.jpg>
-Package pdftex.def Info: ../512/1/imgRec.jpg used on input line 781.
+Package pdftex.def Info: ../512/1/imgRec.jpg used on input line 738.
 (pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 773--784
+Overfull \hbox (6.0pt too wide) in paragraph at lines 730--741
  $[]$ 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 773--784
+Overfull \hbox (6.0pt too wide) in paragraph at lines 730--741
  $[]$ 
  []
 
@@ -515,22 +541,22 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 773--784
 File: ../512/3/imgTrans.jpg Graphic file (type jpg)
 
 <use ../512/3/imgTrans.jpg>
-Package pdftex.def Info: ../512/3/imgTrans.jpg used on input line 797.
+Package pdftex.def Info: ../512/3/imgTrans.jpg used on input line 754.
 (pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
 <../512/3/imgRec.jpg, id=22, 500.03027pt x 500.03027pt>
 File: ../512/3/imgRec.jpg Graphic file (type jpg)
 
 <use ../512/3/imgRec.jpg>
-Package pdftex.def Info: ../512/3/imgRec.jpg used on input line 803.
+Package pdftex.def Info: ../512/3/imgRec.jpg used on input line 760.
 (pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 794--806
+Overfull \hbox (6.0pt too wide) in paragraph at lines 751--763
  $[]$ 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 794--806
+Overfull \hbox (6.0pt too wide) in paragraph at lines 751--763
  $[]$ 
  []
 
@@ -538,112 +564,124 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 794--806
 File: ../512/5/imgTrans.jpg Graphic file (type jpg)
 
 <use ../512/5/imgTrans.jpg>
-Package pdftex.def Info: ../512/5/imgTrans.jpg used on input line 818.
+Package pdftex.def Info: ../512/5/imgTrans.jpg used on input line 775.
 (pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
 <../512/5/imgRec.jpg, id=24, 500.03027pt x 500.03027pt>
 File: ../512/5/imgRec.jpg Graphic file (type jpg)
 
 <use ../512/5/imgRec.jpg>
-Package pdftex.def Info: ../512/5/imgRec.jpg used on input line 824.
+Package pdftex.def Info: ../512/5/imgRec.jpg used on input line 781.
 (pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 815--827
+Overfull \hbox (6.0pt too wide) in paragraph at lines 772--784
  $[]$ 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 815--827
+Overfull \hbox (6.0pt too wide) in paragraph at lines 772--784
  $[]$ 
- []
-
-
-Underfull \hbox (badness 3536) in paragraph at lines 832--833
-[]\OT1/ppl/m/n/10 Luego de cor-rer el pro-grama con los dis-tin-tos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 832--833
-\OT1/ppl/m/n/10 val-ores prop-uestos, se ob-ser-van re-sul-ta-dos muy
- []
-
-
-Underfull \hbox (badness 2418) in paragraph at lines 832--833
-\OT1/ppl/m/n/10 re-al-izadas, se puede afir-mar que tomando val-ores
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 832--833
-
  []
 
 [2 <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP
 1Nuevo/mna-tpe1-ej4/512/1/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto 
-Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/512/1/imgRec.jpg>]
-[3 <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP
-1Nuevo/mna-tpe1-ej4/512/3/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto 
-Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/512/3/imgRec.jpg> <C:/
+Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/512/1/imgRec.jpg> <C:/
 Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP1Nuevo/
-mna-tpe1-ej4/512/5/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto Año/M�
-�todos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/512/5/imgRec.jpg>]
+mna-tpe1-ej4/512/3/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto Año/M�
+�todos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/512/3/imgRec.jpg>]
+
+Package perpage Warning: \stepcounter probably at start of vertical list:
+You might need to use \leavevmode before it to avoid vertical shifts on input l
+ine 802.
+
+
+Package perpage Warning: \stepcounter probably at start of vertical list:
+You might need to use \leavevmode before it to avoid vertical shifts on input l
+ine 820.
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 835--837
+\OT1/ppl/m/n/10 de-cirse que com-ple-ta-mente dis-tin-tas. Antes de la
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 835--837
+\OT1/ppl/m/n/10 re-al-izadas, se puede afir-mar que tomando val-ores
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 835--837
+
+ []
+
+[3 <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP
+1Nuevo/mna-tpe1-ej4/512/5/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto 
+Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/512/5/imgRec.jpg>]
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
 ("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
-uevo\mna-tpe1-ej4\ej4Step1.m"
-LaTeX Font Info:    Try loading font information for OML+ppl on input line 3.
+uevo\mna-tpe1-ej4\src\ej4.m"
+LaTeX Font Info:    Try loading font information for OML+ppl on input line 4.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlppl.fd"
 File: omlppl.fd 
 )
 LaTeX Font Info:    Font shape `OML/ppl/m/it' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 10.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 4.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 12.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
-)
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
-uevo\mna-tpe1-ej4\ej4Step2.m"
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
  [4
 
-])
+]
+Overfull \hbox (240.00769pt too wide) in paragraph at lines 58--59
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][] 
+ []
+
+)
 ("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
-uevo\mna-tpe1-ej4\ourQR.m"
+uevo\mna-tpe1-ej4\src\ourQR.m"
 LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 6.
-) [5]
-Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 7.
+)
+("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
+uevo\mna-tpe1-ej4\src\ecuationTriangularSolver.m") [5]
+("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
+uevo\mna-tpe1-ej4\src\confiability.m")
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
 
  []
 
@@ -655,13 +693,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5198 strings out of 493921
- 75046 string characters out of 3147279
- 195096 words of memory out of 3000000
- 8393 multiletter control sequences out of 15000+200000
- 50198 words of font info for 116 fonts, out of 3000000 for 9000
+ 6238 strings out of 493921
+ 94210 string characters out of 3147279
+ 204505 words of memory out of 3000000
+ 9425 multiletter control sequences out of 15000+200000
+ 49044 words of font info for 115 fonts, out of 3000000 for 9000
  846 hyphenation exceptions out of 8191
- 36i,9n,43p,1403b,1719s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,9n,43p,1403b,2012s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -678,7 +716,7 @@ vetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on informe.pdf (6 pages, 985364 bytes).
+Output written on informe.pdf (6 pages, 988338 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

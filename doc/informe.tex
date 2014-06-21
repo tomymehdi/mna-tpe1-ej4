@@ -430,6 +430,8 @@
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor u-san-do u-sa-mos}
+\usepackage{caption}
+\captionsetup[table]{name=TABLA}
 
 \begin{document}
 %
@@ -720,51 +722,6 @@ Para efectuar las pruebas correspondientes, se considera utilizar un $L={1,10,30
 \\
 
 
-\section{Resultados y Conclusiones}
-
-Para poder cuantificar la confiabilidad de una imagen recuperada, se ha pensado en un \'indice $i$ que consiste en 
-\begin{equation}
- i=\frac{cantidad\_bits\_iguales}{cantidad\_bits\_imagen}   .
-\nonumber
-\end{equation}
-
-
-\begin{table}[ht]
-\caption{Relaci\'on entre imagen transmitida e imagen recibida} 
-\centering  
-\begin{tabular}{c | c | c | c | c}  
-\hline\hline
-L   M & 32 & 64 & 256 & 512 \\ \hline 
-1 & 0.0019798 & 0.082809 & 0 & 0.0048752 \\  
-2 & 0.22441 & 0 & 0.0010986  & 0.029369 \\ 
-3 & 0 &  0.0024719 & 0.12458 & 0.0026894\\ 
-4 & 0.00020218& 0.000045776 & 0.0062218 & 0.000030518 \\ 
-5 & 0.088345 &  0.00068665 & 0.00061417 & 0.18251  \\ [1ex]  
-\hline 
-\end{tabular} 
-\label{table:nonlin}  
-\end{table} 
-
-
-
-\begin{table}[ht] 
-\caption{Relaci\'on entre imagen recibida e imagen original}
-\centering  
-\begin{tabular}{c | c | c | c | c}  
-\hline\hline
-L   M & 32 & 64 & 256 & 512 \\ \hline 
-1 & 0.0020866 & 0.0015945 & 0.0031052 & 0.0053940 \\  
-2 & 0.00079727 & 0.029865 & 0.023960  & 0.000061035 \\ 
-3 & 0 & 0.0011215 & 0.00055695 & 0.00011826\\ 
-4 & 0.000030518 & 0.00029755 & 0.059250 & 0.000057220 \\ 
-5 & 0.00022125 & 0.10743 & 0.00088501 & 0.0099983  \\ [1ex]  
-\hline 
-\end{tabular} 
-\label{table:nonlin}  
-\end{table} 
-
-
-
 
 \begin{figure}
 \begin{center}
@@ -829,7 +786,54 @@ L   M & 32 & 64 & 256 & 512 \\ \hline
 \end{center}
 \end{figure}
 
-Luego de correr el programa con los distintos valores propuestos, se observan resultados muy variados dependiendo del ruido que se le aplica al valor transmitido. Se observan situaciones en las que dadas dos im\'agenes con valor de ruido similar, se recuperan im\'agenes completamente distintas. Antes de la correcci\'on efectuada, era imposible afirmar que este m\'etodo dependiera de que el ruido sea menor para obtener una recuperaci\'on exitosa, ya que se observaban situaciones en las que se obtiene una imagen muy distorsionada, habiendo transmitido una imagen con poco ruido. Despu\'es, con el \'ultimo set de pruebas realizadas, se puede afirmar que tomando valores muy altos de $L$, la imagen no se recupera bien, pero que, para el resto de los valores de $L$, se recupera de manera aceptable. Esto puede ocurrir debido a que, a\'un cuando el $L$ estimado sea igual al real, los errores de precisi\'on provocan im\'agenes distorsionadas (como ocurre con $L=5$).  Sin embargo, se puede concluir que este m\'etodo puede usarse para la estimaci\'on de un canal de comunicaciones, para $L$ chicos. \\ 
+
+\section{Resultados y Conclusiones}
+
+Para poder cuantificar la confiabilidad de una imagen recuperada, se ha pensado en un \'indice $i$ que consiste en 
+\begin{equation}
+ i=\frac{cantidad\_bits\_iguales}{cantidad\_bits\_imagen}   .
+\nonumber
+\end{equation}
+
+
+
+
+\begin{table}[ht]
+\caption{\\Relaci\'on entre imagen transmitida e imagen recibida} 
+\centering  
+\begin{tabular}{c | c | c | c | c}  
+\hline\hline
+L   M & 32 & 64 & 256 & 512 \\ \hline 
+1 & 0.0019798 & 0.082809 & 0 & 0.0048752 \\  
+2 & 0.22441 & 0 & 0.0010986  & 0.029369 \\ 
+3 & 0 &  0.0024719 & 0.12458 & 0.0026894\\ 
+4 & 0.00020218& 0.000045776 & 0.0062218 & 0.000030518 \\ 
+5 & 0.088345 &  0.00068665 & 0.00061417 & 0.18251  \\ [1ex]  
+\hline 
+\end{tabular} 
+\label{table:nonlin}  
+\end{table} 
+
+
+
+\begin{table}[ht] 
+\caption{\\Relaci\'on entre imagen recibida e imagen original}
+\centering  
+\begin{tabular}{c | c | c | c | c}  
+\hline\hline
+L   M & 32 & 64 & 256 & 512 \\ \hline 
+1 & 0.0020866 & 0.0015945 & 0.0031052 & 0.0053940 \\  
+2 & 0.00079727 & 0.029865 & 0.023960  & 0.000061035 \\ 
+3 & 0 & 0.0011215 & 0.00055695 & 0.00011826\\ 
+4 & 0.000030518 & 0.00029755 & 0.059250 & 0.000057220 \\ 
+5 & 0.00022125 & 0.10743 & 0.00088501 & 0.0099983  \\ [1ex]  
+\hline 
+\end{tabular} 
+\label{table:nonlin}  
+\end{table} 
+
+Analizando tanto la Tabla 1, como la Tabla 2 puede decirse que 
+completamente distintas. Antes de la correcci\'on efectuada, era imposible afirmar que este m\'etodo dependiera de que el ruido sea menor para obtener una recuperaci\'on exitosa, ya que se observaban situaciones en las que se obtiene una imagen muy distorsionada, habiendo transmitido una imagen con poco ruido. Despu\'es, con el \'ultimo set de pruebas realizadas, se puede afirmar que tomando valores muy altos de $L$, la imagen no se recupera bien, pero que, para el resto de los valores de $L$, se recupera de manera aceptable. Esto puede ocurrir debido a que, a\'un cuando el $L$ estimado sea igual al real, los errores de precisi\'on provocan im\'agenes distorsionadas (como ocurre con $L=5$).  Sin embargo, se puede concluir que este m\'etodo puede usarse para la estimaci\'on de un canal de comunicaciones, para $L$ chicos. \\ 
 
 
 
@@ -995,13 +999,17 @@ John Mattews and Kurtis Fink, \emph{M\'etodos Num\'ericos con Matlab, Fecha de p
 \renewcommand\appendixname{Ap\'endice}
 
 \appendix
-\subsection{C\'odigo y ejecuci\'on paso 1}
-\lstinputlisting[language=Matlab]{../ej4Step1.m} 
-\subsection{C\'odigo y ejecuci\'on paso 2}
-\lstinputlisting[language=Matlab]{../ej4Step2.m} 
+\subsection{C\'odigo y ejecuci\'on}
+\lstinputlisting[language=Matlab]{../src/ej4.m}
 \subsection{Implementaci\'on QR completo por G-S}
-\lstinputlisting[language=Matlab]{../ourQR.m} 
- \newpage
+\lstinputlisting[language=Matlab]{../src/ourQR.m} 
+\subsection{Funci\'on para resolver ecuaciones lineales}
+\lstinputlisting[language=Matlab]{../src/ecuationTriangularSolver.m} 
+\subsection{Funci\'on para \'indice de confiabilidad}
+\lstinputlisting[language=Matlab]{../src/confiability.m} 
+
+
+% \newpage
 \subsection{Otros datos representativos de las pruebas}
  
 \begin{tabular}{l c}

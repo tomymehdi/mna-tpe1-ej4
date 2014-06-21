@@ -53,7 +53,7 @@ S = toeplitz(sTrainSent, zeros(1,L)); % S
 sTrainReceived = double(r(:,P)); % r, lo que recibi del entrenamiento
 
 
-[Q R] = qr(S); % S*h = r  Entonces Q'*S*h = Q'*r Entonces R*h = Q'*r
+[Q R] = ourQR(S); % S*h = r  Entonces Q'*S*h = Q'*r Entonces R*h = Q'*r
 %[Q R] = ourQR(S); % Nuestra implementacion
 h_estimada = ecuationTriangularSolver(R,(Q'*sTrainReceived)); % Resolvemos R*h = Q'*r y usamos el hecho de que R es triangular
 H_estimada = toeplitz([h_estimada.' zeros(1,M-L)],zeros(1,M)); % Obtenemos H con h
