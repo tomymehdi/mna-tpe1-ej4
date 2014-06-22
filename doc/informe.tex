@@ -800,7 +800,7 @@ Este \'indice indicar\'a la diferencia entre la imagen recibida y la transmitida
 
 
 \begin{table}[ht]
-\caption{\\Valor de $i$ para diferentes valores de L y M entre la imagen transmitida e imagen recibida} 
+\caption{\\Valor de $i$ para diferentes valores de L y M entre la imagen transmitida y la imagen recibida} 
 \centering  
 \begin{tabular}{c | c | c | c | c}  
 \hline\hline
@@ -818,7 +818,7 @@ L   M & 32 & 64 & 256 & 512 \\ \hline
 
 
 \begin{table}[ht] 
-\caption{\\Valor de $i$ para diferentes valores de L y M entre la imagen original e imagen recibida}
+\caption{\\Valor de $i$ para diferentes valores de L y M entre la imagen original y la imagen recibida}
 \centering  
 \begin{tabular}{c | c | c | c | c}  
 \hline\hline
@@ -833,11 +833,11 @@ L   M & 32 & 64 & 256 & 512 \\ \hline
 \label{table:nonlin}  
 \end{table} 
 
-Nos pareci\'o relevante analizar dos situaciones; la proporci\'on de bits iguales entre la imagen transmitida y la imagen recibida (Tabla 1) y la proporci\'on de bits iguales entre la imagen original de Lena y la recibida (Tabla 2).  Es interesante analizar c\'omo influencia a la imagen recibida la forma en que se transmite, pero al fin y al cabo, queremos saber qu\'e relaci\'on tiene la imagen recibida con respecto a la imagen de Lena original. 
+Nos pareci\'o relevante analizar dos situaciones: la proporci\'on de bits iguales entre la imagen transmitida y la imagen recibida (Tabla 1), y la proporci\'on de bits iguales entre la imagen original de Lena y la recibida (Tabla 2).  Es interesante estudiar c\'omo influencia a la imagen recibida la forma en que se transmite, pero al fin y al cabo, queremos saber qu\'e relaci\'on tiene la imagen recibida con respecto a la imagen de Lena original. 
 
-En las tablas se puede observar que para grandes $L$, se ven valores de $i$ desde 0.00045\% para la Tabla 1 y 0.0003\% para la Tabla 2, o sea que la recuperaci\'on no es buena en relaci\'on a la cantidad de $bits$ iguales con respecto a valores m\'as peque\~nos de $L$, en los que se observan valores como 0.8\% para la primera tabla y 0.29\% para la segunda. Se observan algunas excepciones, como por ejemplo el caso $L = 5$ y $M = 512$ en la Tabla 1 y $L = 5$ y $M = 64$ para la Tabla 2, donde se ven valores m\'as elevados de $i$. 
+En las tablas se puede observar que para grandes $L$, se ven valores de $i$ desde 0.00045\% para la Tabla 1 y 0.0003\% para la Tabla 2, o sea que la recuperaci\'on no es buena en relaci\'on a la cantidad de $bits$ iguales con respecto a valores m\'as peque\~nos de $L$, en los que se observan valores como 0.8\% para la primera tabla y 0.29\% para la segunda. Se advierten algunas excepciones, como por ejemplo el caso $L = 5$ y $M = 512$ en la Tabla 1 y $L = 5$ y $M = 64$ para la Tabla 2, donde se ven valores m\'as elevados de $i$. 
 
-Dicho esto, se puede sostener que tomando valores muy altos de $L$, la imagen no se recupera de forma confiable, pero que, para el resto de los valores de $L$, se recupera de manera aceptable. Esto puede ocurrir debido a que, a\'un cuando el $L$ estimado sea igual al real, los errores de precisi\'on provocan im\'agenes distorsionadas (como ocurre con $L=5$).  Sin embargo, se puede concluir que este m\'etodo puede usarse para la estimaci\'on de un canal de comunicaciones, para $L$ chicos. \\ 
+Dicho esto, se puede sostener que tomando valores muy altos de $L$, la imagen no se recupera de forma confiable; mientras que, para el resto de los valores de $L$, lo hace de manera aceptable. Esto puede ocurrir debido a que, a\'un cuando el $L$ estimado sea igual al real, los errores de precisi\'on provocan im\'agenes distorsionadas (como ocurre con $L=5$).  Sin embargo, se puede concluir que este m\'etodo puede usarse para la estimaci\'on de un canal de comunicaciones, para $L$ chicos. \\ 
 
 
 
