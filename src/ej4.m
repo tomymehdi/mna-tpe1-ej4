@@ -66,7 +66,7 @@ r2 = r.';
 for k=1:P-1
     
     [Qr Rr]=ourQR(H_estimada);
-    esa=1
+    
     u(:,k)=ecuationTriangularSolver(Rr,(Qr)'*r(:,k));
     
     %u(:,k) = H_estimada\r(:,k); %lo que se recupera
