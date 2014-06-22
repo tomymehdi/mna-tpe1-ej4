@@ -1,22 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.10)  21 JUN 2014 13:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.6.9)  22 JUN 2014 17:22
 entering extended mode
-**C:/Users/Teresa/Documents/ITBA/Cuarto*Año/Métodos*Numéricos*Avanzados/TP1N
-uevo/mna-tpe1-ej4/doc/informe.tex
-
-("C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP1N
-uevo/mna-tpe1-ej4/doc/informe.tex"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**informe.tex
+(./informe.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\ieeetran\IEEEtran.cls"
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 Document Class: IEEEtran 2012/12/27 V1.8 by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -28,7 +18,7 @@ Document Class: IEEEtran 2012/12/27 V1.8 by Michael Shell
 -- Using IEEE Computer Society mode.
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 368.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -102,10 +92,10 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count91
 \@IEEEtranrubishbin=\box26
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
@@ -113,36 +103,36 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grffile.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grffile.sty
 Package: grffile 2012/04/05 v1.16 Extended file name support for graphics (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -151,7 +141,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -159,18 +149,18 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count92
 ))
@@ -178,12 +168,12 @@ Package grffile Info: Option `multidot' is set to `true'.
 Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count93
 \float@exts=\toks17
@@ -191,7 +181,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks18
 \@floatcapt=\box28
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count94
 \lst@gtempboxa=\box29
 \lst@token=\toks19
@@ -205,42 +195,42 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \lst@lineno=\count99
 \lst@maxwidth=\dimen122
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count100
 \lst@skipnumbers=\count101
 \lst@framebox=\box30
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2014/03/04 1.5c listings configuration
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
-Package: listings 2014/03/04 1.5c (Carsten Heinz)
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\bigfoot\perpage.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/bigfoot/perpage.sty
 Package: perpage 2006/07/15 1.12 Reset/sort counters per page
 \c@abspage=\count102
 )
 \c@pp@a@figure=\count103
 \c@pp@a@table=\count104
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks20
 \ex@=\dimen123
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen124
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count105
@@ -281,7 +271,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\morefloats\morefloats.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/morefloats/morefloats.sty
 Package: morefloats 2012/01/28 v1.0f Raise limit of unprocessed floats (HMM; DH
 )
 Package morefloats Info: Maximum number of possible floats asked for: 36.
@@ -307,10 +297,10 @@ Package morefloats Info: Maximum number of possible floats asked for: 36.
 \bx@AI=\insert217
 \bx@AJ=\insert216
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen132
@@ -340,9 +330,7 @@ nt \sffamily \normalsize \noindent \unhbox \@tempboxa #2}\else \hbox to\hsize {
 \c@ContinuedFloat=\count117
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
-)
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
-uevo\mna-tpe1-ej4\doc\informe.aux"
+) (./informe.aux
 
 LaTeX Warning: Label `fig:refuerzos2' multiply defined.
 
@@ -374,6 +362,8 @@ LaTeX Warning: Label `fig:test' multiply defined.
 LaTeX Warning: Label `table:nonlin' multiply defined.
 
 )
+\openout1 = `informe.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 436.
 LaTeX Font Info:    ... okay on input line 436.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 436.
@@ -386,7 +376,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 436.
 LaTeX Font Info:    ... okay on input line 436.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 436.
 LaTeX Font Info:    ... okay on input line 436.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
 \scratchdimen=\dimen139
@@ -399,7 +389,24 @@ LaTeX Font Info:    ... okay on input line 436.
 \MPnumerator=\count122
 \makeMPintoPDFobject=\count123
 \everyMPtoPDFconversion=\toks26
-)
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 436.
 \c@lstlisting=\count124
 Package caption Info: Begin \AtBeginDocument code.
@@ -409,7 +416,7 @@ Package caption Info: End \AtBeginDocument code.
 \IEEEtitleabstractindextext instead.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 561.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11> not available
@@ -419,17 +426,17 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 561.
 LaTeX Font Info:    Try loading font information for U+msa on input line 561.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 561.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+pzd on input line 561.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 ** ATTENTION: \IEEEdisplaynotcompsoctitleabstractindextext is deprecated (line 
@@ -451,7 +458,7 @@ Underfull \hbox (badness 1565) in paragraph at lines 620--625
 
 
 Underfull \hbox (badness 2846) in paragraph at lines 620--625
-\OT1/ppl/m/n/10 En la sigu-iente secci[]on, Metodolog[]a Uti-lizada, se
+\OT1/ppl/m/n/10 En la sigu-iente secci[]on, Metodolog[]^^Pa Uti-lizada, se
  []
 
 
@@ -485,7 +492,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 672--674
 
 Underfull \vbox (badness 4242) has occurred while \output is active []
 
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
@@ -514,14 +521,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 721--723
 
  []
 
-<../512/1/imgTrans.jpg, id=19, 500.03027pt x 500.03027pt>
+<../512/1/imgTrans.jpg, id=20, 500.03027pt x 500.03027pt>
 File: ../512/1/imgTrans.jpg Graphic file (type jpg)
 
 <use ../512/1/imgTrans.jpg>
 Package pdftex.def Info: ../512/1/imgTrans.jpg used on input line 733.
 (pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
-<../512/1/imgRec.jpg, id=20, 500.03027pt x 500.03027pt>
+<../512/1/imgRec.jpg, id=21, 500.03027pt x 500.03027pt>
 File: ../512/1/imgRec.jpg Graphic file (type jpg)
 
 <use ../512/1/imgRec.jpg>
@@ -529,7 +536,7 @@ Package pdftex.def Info: ../512/1/imgRec.jpg used on input line 738.
 (pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 730--741
- $[]$ 
+ []$ 
  []
 
 
@@ -537,14 +544,14 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 730--741
  $[]$ 
  []
 
-<../512/3/imgTrans.jpg, id=21, 500.03027pt x 500.03027pt>
+<../512/3/imgTrans.jpg, id=22, 500.03027pt x 500.03027pt>
 File: ../512/3/imgTrans.jpg Graphic file (type jpg)
 
 <use ../512/3/imgTrans.jpg>
 Package pdftex.def Info: ../512/3/imgTrans.jpg used on input line 754.
 (pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
-<../512/3/imgRec.jpg, id=22, 500.03027pt x 500.03027pt>
+<../512/3/imgRec.jpg, id=23, 500.03027pt x 500.03027pt>
 File: ../512/3/imgRec.jpg Graphic file (type jpg)
 
 <use ../512/3/imgRec.jpg>
@@ -552,7 +559,7 @@ Package pdftex.def Info: ../512/3/imgRec.jpg used on input line 760.
 (pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 751--763
- $[]$ 
+ []$ 
  []
 
 
@@ -560,14 +567,14 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 751--763
  $[]$ 
  []
 
-<../512/5/imgTrans.jpg, id=23, 500.03027pt x 500.03027pt>
+<../512/5/imgTrans.jpg, id=24, 500.03027pt x 500.03027pt>
 File: ../512/5/imgTrans.jpg Graphic file (type jpg)
 
 <use ../512/5/imgTrans.jpg>
 Package pdftex.def Info: ../512/5/imgTrans.jpg used on input line 775.
 (pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
-<../512/5/imgRec.jpg, id=24, 500.03027pt x 500.03027pt>
+<../512/5/imgRec.jpg, id=25, 500.03027pt x 500.03027pt>
 File: ../512/5/imgRec.jpg Graphic file (type jpg)
 
 <use ../512/5/imgRec.jpg>
@@ -575,7 +582,7 @@ Package pdftex.def Info: ../512/5/imgRec.jpg used on input line 781.
 (pdftex.def)             Requested size: 125.00726pt x 125.00726pt.
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 772--784
- $[]$ 
+ []$ 
  []
 
 
@@ -583,55 +590,37 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 772--784
  $[]$ 
  []
 
-[2 <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP
-1Nuevo/mna-tpe1-ej4/512/1/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto 
-Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/512/1/imgRec.jpg> <C:/
-Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP1Nuevo/
-mna-tpe1-ej4/512/3/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto Año/M�
-�todos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/512/3/imgRec.jpg>]
+[2 <../512/1/imgTrans.jpg> <../512/1/imgRec.jpg> <../512/3/imgTrans.jpg> <../51
+2/3/imgRec.jpg>]
 
 Package perpage Warning: \stepcounter probably at start of vertical list:
 You might need to use \leavevmode before it to avoid vertical shifts on input l
-ine 802.
+ine 803.
 
 
 Package perpage Warning: \stepcounter probably at start of vertical list:
 You might need to use \leavevmode before it to avoid vertical shifts on input l
-ine 820.
+ine 821.
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 835--837
-\OT1/ppl/m/n/10 de-cirse que com-ple-ta-mente dis-tin-tas. Antes de la
- []
-
-
-Underfull \hbox (badness 2418) in paragraph at lines 835--837
-\OT1/ppl/m/n/10 re-al-izadas, se puede afir-mar que tomando val-ores
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 835--837
+Underfull \hbox (badness 10000) in paragraph at lines 840--841
 
  []
 
-[3 <C:/Users/Teresa/Documents/ITBA/Cuarto Año/Métodos Numéricos Avanzados/TP
-1Nuevo/mna-tpe1-ej4/512/5/imgTrans.jpg> <C:/Users/Teresa/Documents/ITBA/Cuarto 
-Año/Métodos Numéricos Avanzados/TP1Nuevo/mna-tpe1-ej4/512/5/imgRec.jpg>]
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2014/03/04 1.5c listings language file
+[3 <../512/5/imgTrans.jpg> <../512/5/imgRec.jpg>]
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
-uevo\mna-tpe1-ej4\src\ej4.m"
+(../src/ej4.m
 LaTeX Font Info:    Try loading font information for OML+ppl on input line 4.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlppl.fd"
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlppl.fd
 File: omlppl.fd 
 )
 LaTeX Font Info:    Font shape `OML/ppl/m/it' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 4.
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 12.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
@@ -646,79 +635,75 @@ Overfull \hbox (240.00769pt too wide) in paragraph at lines 58--59
 ][][][][][][] 
  []
 
-)
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
-uevo\mna-tpe1-ej4\src\ourQR.m"
+) (../src/ourQR.m
 LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 7.
-)
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
-uevo\mna-tpe1-ej4\src\ecuationTriangularSolver.m") [5]
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
-uevo\mna-tpe1-ej4\src\confiability.m")
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
+) (../src/ecuationTriangularSolver.m) [5]
+(../src/confiability.m)
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
 
  []
 
-[6]
-("C:\Users\Teresa\Documents\ITBA\Cuarto Año\Métodos Numéricos Avanzados\TP1N
-uevo\mna-tpe1-ej4\doc\informe.aux")
+[6] (./informe.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6238 strings out of 493921
- 94210 string characters out of 3147279
- 204505 words of memory out of 3000000
- 9425 multiletter control sequences out of 15000+200000
- 49044 words of font info for 115 fonts, out of 3000000 for 9000
- 846 hyphenation exceptions out of 8191
- 36i,9n,43p,1403b,2012s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/hel
-vetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on informe.pdf (6 pages, 988338 bytes).
+ 6358 strings out of 493315
+ 95851 string characters out of 6137905
+ 210699 words of memory out of 5000000
+ 9692 multiletter control sequences out of 15000+600000
+ 49044 words of font info for 115 fonts, out of 8000000 for 9000
+ 962 hyphenation exceptions out of 8191
+ 36i,9n,43p,1304b,2012s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/p
+alatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatino
+/uplri8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/zapfding/uzdr.
+pfb>
+Output written on informe.pdf (6 pages, 976680 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
