@@ -54,7 +54,6 @@ sTrainReceived = double(r(:,P)); % r, lo que recibi del entrenamiento
 
 
 [Q R] = ourQR(S); % S*h = r  Entonces Q'*S*h = Q'*r Entonces R*h = Q'*r
-%[Q R] = ourQR(S); % Nuestra implementacion
 h_estimada = ecuationTriangularSolver(R,(Q'*sTrainReceived)); % Resolvemos R*h = Q'*r y usamos el hecho de que R es triangular
 H_estimada = toeplitz([h_estimada.' zeros(1,M-L)],zeros(1,M)); % Obtenemos H con h
 
@@ -62,9 +61,15 @@ H_estimada = toeplitz([h_estimada.' zeros(1,M-L)],zeros(1,M)); % Obtenemos H con
 'Recuperando'
 %Recupero la imagen con el H_estimada
 r2 = r.';
+
+
 for k=1:P-1
-    u(:,k) = H_estimada\r(:,k); %lo que se recupera
-    u(:,k) = H_estimada\r(:,k); %lo que se recupera
+    
+    [Qr Rr]=ourQR(H_estimada);
+    esa=1
+    u(:,k)=ecuationTriangularSolver(Rr,(Qr)'*r(:,k));
+    
+    %u(:,k) = H_estimada\r(:,k); %lo que se recupera
 end
 %u(:,P+1) = sTrainReceived; %lo que recibi ultima linea
 b2 = uint8(u.');
